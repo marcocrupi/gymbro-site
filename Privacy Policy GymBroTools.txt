@@ -1,0 +1,163 @@
+﻿Informativa Privacy del’app GymBroTools
+
+
+1. Introduzione e Ambito di Applicazione
+
+
+GymBroTools è un’applicazione mobile per il fitness disponibile a livello globale. La presente Privacy Policy descrive come GymBroTools raccoglie, utilizza e protegge i dati personali degli utenti. L’app è sviluppata e gestita da un singolo sviluppatore privato (non da un’azienda) e si impegna a tutelare la privacy di tutti gli utenti.
+
+
+IMPORTANTE: l’app non è destinata a minori di 13 anni. In fase di primo avvio, viene richiesto all’utente di indicare l’anno di nascita: se risulta di età inferiore a 13 anni, l’accesso all’app viene negato e nessun dato viene raccolto o trattato. Solo gli utenti di età pari o superiore a 13 anni possono utilizzare GymBroTools e accettare la presente informativa privacy.
+
+
+GymBroTools non raccoglie consapevolmente dati personali di minori di 13 anni. Se venissimo a conoscenza del fatto che sono stati raccolti dati di un minore di 13 anni senza il consenso verificabile dei genitori, provvederemo a cancellare tali dati il prima possibile. Gli utenti o i genitori/tutori che ritengano che un minore ci abbia fornito informazioni personali possono contattarci in qualsiasi momento per richiederne la cancellazione immediata.
+
+
+Questa informativa si applica a tutti i servizi offerti tramite l’app GymBroTools.
+
+
+2. Tipologie di Dati Raccolti
+
+
+Non raccogliamo dati personali identificativi salvo quanto strettamente necessario per il funzionamento dell’app. In particolare, GymBroTools raccoglie le seguenti tipologie di dati:
+
+
+Dati forniti dall’utente: informazioni che l’utente inserisce volontariamente, come ad esempio i dati di registrazione (es. email o username) e i dettagli degli allenamenti (serie, ripetizioni, pesi sollevati). Questi dati servono a creare l’account e a permettere all’utente di salvare e consultare i propri allenamenti. Le informazioni inserite rimangono private, visibili solo all’utente stesso e non vengono condivise con altri utenti o terze parti esterne a quanto descritto in questa policy. Importante: GymBroTools non richiede né raccoglie alcun dato personale “sensibile” o biologico, come dati biometrici, informazioni sanitarie, foto, posizione GPS, contatti o altri dati non necessari all’uso dell’app.
+
+
+Dati tecnici di utilizzo (telemetria): l’app utilizza Microsoft Application Insights per raccogliere automaticamente dati tecnici anonimi sull’utilizzo e sul funzionamento dell’app. Queste informazioni includono ad esempio log di errori, metriche di performance, dati di dispositivo (come modello, sistema operativo) e eventi tecnici generali (ad es. caricamento di una schermata o chiamata API). Tale telemetria non contiene dati personali identificativi: non vengono registrati nomi, email, indirizzi o contenuti personali degli utenti. Abbiamo configurato la telemetria in modo da escludere informazioni potenzialmente identificative (ad es. URL completi, indirizzi email, ID utente) e raccogliere solo dati utili a garantire stabilità e sicurezza dell’app. Application Insights è sempre attivo per monitorare lo stato dell’applicazione ed è impostato con un campionamento limitato (in produzione) per ridurre al minimo la quantità di dati raccolti.
+
+
+Dati di analisi facoltativi (session replay con Microsoft Clarity): solo con il consenso esplicito dell’utente, l’app può utilizzare Microsoft Clarity per raccogliere informazioni sull’interazione dell’utente con l’app (cosiddetto “session replay”). Clarity registra in modo anonimo le sessioni di utilizzo – ad esempio tocchi sullo schermo, navigazione tra schermate e azioni dell’utente – al fine di aiutare lo sviluppatore a capire come migliorare l’interfaccia e l’esperienza utente. Di default Clarity è disattivato e nessuna sessione viene registrata senza consenso: al primo avvio dell’app viene chiesto se abilitare o meno questa funzionalità opzionale. Anche se abilitato, Clarity non raccoglie dati personali identificativi né audio/video esterni all’app: registra solo l’interfaccia dell’app e le interazioni, oscurando eventuali informazioni sensibili. L’utente può attivare o disattivare in qualsiasi momento il session replay dalle impostazioni della privacy nell’app.
+
+
+
+
+3. Finalità del Trattamento
+
+
+Trattiamo i dati raccolti per le seguenti finalità, in modo conforme ai principi di liceità e minimizzazione:
+
+
+Fornire il servizio e funzionalità dell’app: utilizziamo i dati forniti dall’utente (ad es. account e dati degli allenamenti) per permettere all’utente di registrarsi, accedere al proprio profilo, salvare gli esercizi e visualizzare statistiche. Questo trattamento dei dati è essenziale per il funzionamento di GymBroTools e per offrire all’utente le funzionalità richieste (es. sincronizzare i propri allenamenti tra dispositivi in modalità offline-first).
+
+
+Migliorare stabilità, sicurezza e prestazioni: i dati tecnici raccolti tramite Application Insights vengono utilizzati esclusivamente per monitorare lo stato dell’app, individuare bug, prevenire crash, analizzare le performance e garantire la sicurezza del servizio. Queste informazioni ci aiutano a correggere errori, ottimizzare l’infrastruttura e assicurare che l’app funzioni in modo affidabile su diversi dispositivi.
+
+
+Analisi dell’esperienza utente (facoltativo): i dati di utilizzo raccolti tramite Microsoft Clarity, se l’utente ha acconsentito, vengono impiegati per analisi aggregate e anonime sul modo in cui l’app viene utilizzata. Lo scopo è comprendere meglio il comportamento degli utenti nell’interfaccia (quali schermate vengono visitate, quali pulsanti vengono premuti, eventuali punti di difficoltà) al fine di migliorare il design e l’usabilità di GymBroTools. Questa analisi aiuta lo sviluppatore a prendere decisioni informate su come evolvere l’app, sempre nell’interesse degli utenti.
+
+
+Comunicazioni di supporto: eventualmente, i dati di contatto (come l’email fornita in fase di registrazione) potranno essere utilizzati per comunicazioni di servizio strettamente legate all’app, ad esempio per rispondere a richieste di supporto tecnico o inviare avvisi importanti sul funzionamento dell’app. GymBroTools non invia newsletter promozionali né comunicazioni di marketing non richieste.
+
+
+
+
+Si precisa che i dati non vengono mai utilizzati per finalità di profilazione a fini commerciali, pubblicitari di terze parti o decisioni automatizzate che producano effetti giuridici sull’utente. Ogni trattamento avviene nei limiti delle finalità sopra descritte.
+
+
+4. Base Giuridica del Trattamento
+
+
+Trattiamo i dati personali degli utenti solo se esiste una base legale che lo consenta secondo le normative applicabili (Regolamento UE 2016/679 “GDPR” e leggi equivalenti in altre giurisdizioni). In relazione alle finalità sopra esposte, le basi giuridiche sono:
+
+
+Esecuzione di un contratto o misure precontrattuali: per i dati forniti direttamente dall’utente (come dati account e allenamenti) il trattamento è necessario per fornire il servizio richiesto. Quando l’utente crea un account e utilizza GymBroTools, si instaura un rapporto contrattuale implicito: i suoi dati vengono processati per poter utilizzare l’app e le sue funzionalità (art. 6(1)(b) GDPR). Senza questi dati non potremmo fornire le funzioni di registrazione, salvataggio degli esercizi e altre caratteristiche chiave dell’app.
+
+
+Legittimo interesse: il trattamento dei dati di telemetria tecnica tramite Application Insights si basa sul legittimo interesse dello sviluppatore (art. 6(1)(f) GDPR). Tale interesse legittimo consiste nell’assicurare stabilità, sicurezza e miglioramento continuo del servizio, a beneficio sia dello sviluppatore che degli utenti. Abbiamo valutato che questo trattamento, limitato a dati anonimi e tecnici, non lede i diritti e le libertà degli utenti (anche grazie all’assenza di informazioni personali identificative). L’app richiede comunque l’accettazione di Termini e Privacy all’installazione, rendendo gli utenti consapevoli di questa telemetria di base. L’utente ha il diritto di opporsi per motivi relativi alla sua situazione particolare (vedi sezione Diritti), tenendo conto che la telemetria è fondamentale per prevenire malfunzionamenti e proteggere i dati.
+
+
+Consenso esplicito: il trattamento dei dati tramite Microsoft Clarity (session replay) avviene solo se l’utente presta un consenso libero, specifico e informato (art. 6(1)(a) GDPR). In fase di primo utilizzo, all’utente viene chiesto se desidera attivare questa funzionalità opzionale. In assenza di consenso, Clarity rimane disabilitato e nessuna registrazione viene effettuata. L’utente può in qualsiasi momento revocare il consenso dato, disattivando la registrazione delle sessioni dalle impostazioni dell’app; da quel momento non verranno più raccolti nuovi dati tramite Clarity. La revoca del consenso non pregiudica la liceità dei trattamenti già effettuati.
+
+
+
+
+Oltre a queste basi principali, GymBroTools può trattare dati personali per adempiere eventuali obblighi di legge applicabili (art. 6(1)(c) GDPR) o per tutelare interessi vitali degli utenti o altri (ipotesi rare, art. 6(1)(d)), anche se in pratica queste circostanze non si presentano nell’uso ordinario dell’app.
+
+
+5. Modalità del Trattamento e Durata di Conservazione dei Dati
+
+
+Trattiamo i dati personali degli utenti in forma prevalentemente elettronica e automatizzata, adottando misure di sicurezza adeguate a prevenire accessi non autorizzati, divulgazione o alterazione dei dati. I dati sono conservati su server sicuri (es. infrastrutture cloud Microsoft Azure) e protetti mediante tecniche di crittografia e controllo degli accessi. Lo sviluppatore unico di GymBroTools è l’unico ad avere accesso diretto ai dati a fini di gestione dell’app, e tratta tali dati in modo strettamente confidenziale. Non sono presenti altri incaricati o personale terzo che accede ai dati personali, salvo i servizi esterni menzionati (Microsoft) che agiscono come fornitori tecnici secondo quanto descritto.
+
+
+Conserviamo i dati solo per il tempo necessario a raggiungere le finalità per cui sono stati raccolti, dopodiché provvediamo a cancellarli o ad anonimizzarli. Di seguito le durate specifiche di conservazione per ciascuna tipologia di dato:
+
+
+Dati account e dati degli allenamenti: le informazioni fornite dall’utente (es. email di registrazione, nome utente, serie/ripetizioni/pesi salvati) sono conservate per tutta la durata dell’attivazione dell’account. In pratica, tali dati restano memorizzati finché l’utente continua ad usare l’app e mantiene il proprio account attivo, in modo da permettergli di accedere al suo storico di allenamenti. L’utente ha sempre la possibilità di modificare o cancellare singoli dati (ad es. eliminare un allenamento) direttamente dall’app. Inoltre, può richiedere in qualsiasi momento la cancellazione completa dell’account (vedi Diritti dell’utente): in tal caso tutti i dati personali associati all’account saranno eliminati in modo permanente dai nostri sistemi entro tempi tecnici brevi. Potrebbero essere conservati dati limitati oltre la cancellazione solo in forma aggregata o anonima, o per obblighi di legge (es. log di sicurezza), ma non in modo da identificare l’utente.
+
+
+Dati di telemetria tecnica (Application Insights): i dati raccolti automaticamente su errori e performance tramite Application Insights sono conservati per un periodo massimo di 90 giorni. Questo limite di conservazione è in linea con le impostazioni standard della piattaforma e serve a disporre di uno storico recente per analisi e debugging, senza mantenere informazioni più a lungo del necessario. Trascorso circa 90 giorni, i log e le telemetrie più vecchie vengono cancellati o sovrascritti automaticamente. In qualunque caso, trattandosi di dati anonimi, non è possibile risalire a un utente specifico da queste informazioni, e la loro eliminazione avviene in conformità alle policy di retention di Microsoft Azure Application Insights.
+
+
+Dati di session replay (Microsoft Clarity): i dati raccolti attraverso Clarity (se l’utente ha acconsentito) sono conservati per periodi limitati, secondo le policy del servizio Microsoft Clarity. In particolare, le registrazioni dettagliate delle sessioni utente (es. riproduzioni delle schermate) vengono conservate per un periodo breve, indicativamente fino a 30 giorni dalla raccolta. Gli analytics aggregati e anonimi derivati da tali sessioni possono essere mantenuti per un periodo più lungo, fino a un massimo di 13 mesi, per consentire analisi di trend su base annuale. Dopo tali termini, anche questi dati vengono automaticamente eliminati dai sistemi di Clarity. Lo sviluppatore di GymBroTools non conserva localmente copie dei dati di session replay: l’accesso avviene tramite l’account Clarity ed è soggetto alle misure di protezione e retention di Microsoft.
+
+
+Trasferimento di dati all’estero: i dati personali raccolti da GymBroTools possono essere trasferiti e trattati in Paesi al di fuori dello Spazio Economico Europeo (SEE), in particolare laddove risiedano i server dei fornitori di servizi cloud utilizzati, come Microsoft Azure. In tali casi, ci assicuriamo che siano adottate adeguate garanzie per la protezione dei dati, come l’adozione di clausole contrattuali standard approvate dalla Commissione Europea o altri strumenti legali previsti dalla normativa applicabile, al fine di garantire un livello di protezione equivalente a quello previsto dal GDPR.
+
+
+Allo scadere dei periodi sopra indicati, i dati vengono cancellati in modo sicuro oppure resi anonimi in modo irreversibile (così che non siano più associabili a un utente). Ricordiamo che l’utente può sempre richiedere la cancellazione anticipata dei propri dati personali, e GymBroTools darà seguito a tali richieste nei tempi previsti dalla legge (vedi sezione Diritti degli utenti).
+
+
+6. Diritti degli Utenti
+
+
+Gli utenti di GymBroTools, in qualità di interessati, godono di una serie di diritti in materia di protezione dei dati personali. In particolare, l’utente potrà in qualsiasi momento esercitare i seguenti diritti:
+
+
+Diritto di accesso: diritto di ottenere la conferma che sia o meno in corso un trattamento di dati personali che lo riguardano e, in tal caso, di ottenere l’accesso a tali dati insieme ad informazioni su finalità, categorie di dati trattati, destinatari, periodo di conservazione e sull’esistenza degli altri diritti qui elencati. In pratica, l’utente può richiedere una copia dei propri dati in nostro possesso e informazioni su come li utilizziamo.
+
+
+Diritto di rettifica: diritto di far correggere o aggiornare dati personali inesatti o incompleti che lo riguardano. GymBroTools consente all’utente di modificare alcuni dati (ad esempio aggiornare il nome utente) direttamente dalle impostazioni. In alternativa, l’utente può contattare il supporto per richiedere la correzione di eventuali informazioni errate nei nostri sistemi.
+
+
+Diritto alla cancellazione (“diritto all’oblio”): diritto di ottenere la cancellazione dei dati personali che lo riguardano, se sussistono i presupposti (ad es. dati non più necessari rispetto alle finalità, revoca del consenso su cui si basava il trattamento, opposizione al trattamento di legittimo interesse, trattamento illecito, obbligo legale di cancellazione). In contesti ordinari, l’utente può eliminare autonomamente il proprio account attraverso l’apposita funzione nell’app: ciò comporterà la rimozione permanente di tutti i dati personali (allenamenti inclusi) associati a quell’account, salvo dove la conservazione sia imposta per legge. Se la cancellazione tramite app non fosse possibile, l’utente può fare richiesta al supporto e provvederemo a cancellare i dati manualmente.
+
+
+Diritto di limitazione del trattamento: diritto di ottenere il congelamento del trattamento dei propri dati in determinate circostanze (ad es. se l’utente contesta l’esattezza dei dati o la legittimità del trattamento), per il tempo necessario alle verifiche del caso. In pratica, su richiesta dell’utente, possiamo sospendere temporaneamente ogni utilizzo dei dati (salvo la sola conservazione) finché la questione non sia risolta.
+
+
+Diritto alla portabilità dei dati: diritto di ricevere in formato strutturato, di uso comune e leggibile da dispositivo automatico i dati personali forniti dall’utente, e di trasmettere tali dati a un altro titolare del trattamento senza impedimenti. Su richiesta, forniremo all’utente un estratto dei dati principali del suo account (es. elenco degli allenamenti registrati) in un formato elettronico facilmente consultabile, così che possa riutilizzarli altrove. Se tecnicamente fattibile, potremo anche – su richiesta dell’utente – trasferire i dati direttamente a un diverso servizio indicato dall’utente.
+
+
+Diritto di opposizione: diritto di opporsi in qualsiasi momento, per motivi connessi alla sua situazione particolare, al trattamento dei dati personali basato sul legittimo interesse. Nel caso di GymBroTools, ciò si applica soprattutto alla telemetria tecnica raccolta per legittimo interesse: l’utente ha il diritto di opporsi a questo trattamento se ritiene che la sua situazione personale lo richieda. In tal caso, salvo che vi siano motivi legittimi cogenti per continuare il trattamento (ad es. la necessità di garantire la sicurezza del servizio), ci asterremo dal trattare ulteriormente i dati di telemetria riferiti a quell’utente. Nota: Poiché la telemetria tecnica è raccolta in forma anonima e senza identificatori personali, l’opposizione potrà essere esercitata in forma generale (ad es. disinstallando l’app o contattandoci per trovare soluzioni tecniche di opt-out). L’utente può invece facilmente disabilitare il trattamento facoltativo (Clarity) semplicemente negando o revocando il consenso per le sessioni registrate.
+
+
+Diritto di reclamo: qualora l’utente ritenga che il trattamento dei suoi dati avvenga in violazione della normativa sulla protezione dei dati, ha il diritto di proporre reclamo all’autorità di controllo competente. Per gli utenti nell’Unione Europea, l’autorità principale è il Garante per la Protezione dei Dati Personali italiano (o altro autorità locale competente in base al paese di residenza dell’utente). Invitiamo comunque gli utenti a rivolgersi prima a noi per qualsiasi dubbio o richiesta, in modo da poter risolvere amichevolmente la questione.
+
+
+GymBroTools non vende, né intende vendere, i dati personali degli utenti come previsto dal California Consumer Privacy Act (CCPA). Gli utenti della California possono esercitare i loro diritti scrivendo a marcocrupi@hotmail.it.
+
+
+Per esercitare i propri diritti, l’utente può contattarci in qualsiasi momento attraverso l’email marcocrupi@hotmail.it. Le richieste saranno evase entro i termini previsti dalla legge (di norma entro 30 giorni, prorogabili in caso di richieste complesse) e senza oneri a carico dell’utente, salvo richieste manifestamente infondate o eccessive.
+
+
+7. Sicurezza e Protezione dei Dati
+
+
+La sicurezza dei dati degli utenti è per noi una priorità. Abbiamo messo in atto misure tecniche e organizzative adeguate per proteggere i dati personali da accessi non autorizzati, divulgazione indebita, alterazione o distruzione. In particolare:
+
+
+Tutte le comunicazioni tra l’app GymBroTools e il server avvengono tramite protocollo sicuro HTTPS, garantendo che i dati trasmessi (come le credenziali di autenticazione o gli aggiornamenti degli allenamenti) siano crittografati durante il trasferimento e non intercettabili da terzi.
+
+
+I dati degli utenti (inclusi i dati degli account e degli esercizi) sono conservati su server cloud sicuri, forniti da Microsoft Azure. Questi server beneficiano delle misure di sicurezza avanzate di Microsoft, come la crittografia dei dati a riposo, firewall, sistemi di prevenzione delle intrusioni e monitoraggio costante delle vulnerabilità. Solo lo sviluppatore autorizzato può accedere a questi sistemi e solo per motivi legati alla manutenzione e gestione dell’app.
+
+
+Le credenziali di autenticazione e altre informazioni sensibili sono gestite in modo sicuro. GymBroTools integra il servizio Microsoft Entra ID (Azure AD) per l’autenticazione: ciò significa che l’app non memorizza password in chiaro nei propri database, affidando a Microsoft la gestione sicura dell’accesso (es. tramite token OIDC/PKCE). Eventuali token di autenticazione sono conservati in modo sicuro sul dispositivo dell’utente e non sono accessibili ad altre app.
+
+
+Abbiamo configurato i servizi di telemetria in modo da minimizzare i dati raccolti e anonimizziamo qualunque potenziale informazione personale. Ad esempio, Application Insights non utilizza cookie nell’app (essendo un’app mobile) e rimuove automaticamente eventuali riferimenti a identificatori personali nei log. Microsoft Clarity, se attivato, applica tecniche di mascheramento (ad esempio per eventuali campi di input testuali) per evitare la raccolta di informazioni sensibili durante le registrazioni delle sessioni.
+
+
+8. Titolare del Trattamento e Contatti
+
+
+Il titolare del trattamento dei dati per l’app GymBroTools è Marco Crupi, sviluppatore indipendente, contattabile all’indirizzo email marcocrupi@hotmail.it per ogni richiesta relativa a privacy e protezione dei dati personali.
+
+
+9. Modifiche e aggiornamenti della Privacy Policy
+
+
+La presente Privacy Policy può essere soggetta a modifiche e aggiornamenti nel tempo, anche in conseguenza di cambiamenti normativi, evoluzioni tecnologiche o aggiornamenti delle funzionalità dell’app. In caso di modifiche rilevanti, informeremo gli utenti attraverso apposita comunicazione in-app o altri canali appropriati. Invitiamo gli utenti a consultare periodicamente questa informativa per restare aggiornati sulle modalità di trattamento dei dati personali.

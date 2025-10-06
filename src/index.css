@@ -79,6 +79,22 @@ a:hover { color: var(--primary-600); }
 /* Sections */
 .features { margin-top: 36px; }
 
+/* Pages */
+/* Extra breathing room at the bottom of the Privacy page */
+.privacy { padding-bottom: 96px; }
+/* Extra breathing room at the bottom of the Terms page */
+.terms { padding-bottom: 96px; }
+/* Simple page header for Privacy and Terms pages */
+.privacy .page-header,
+.terms .page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 14px;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
