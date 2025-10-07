@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informativa Privacy – GymBroTools</title>
+    <meta name="robots" content="index,follow" />
+    <style>
+      :root { color-scheme: light dark; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; margin: 0; padding: 0 22px 56px; line-height: 1.55; }
+      .container { max-width: 900px; margin: 0 auto; }
+      header { display: flex; align-items: center; gap: 12px; padding: 20px 0; }
+      header a { color: inherit; text-decoration: none; font-weight: 600; }
+      h1 { font-size: 2rem; margin: 8px 0 0; }
+      h2 { margin-top: 28px; font-size: 1.25rem; }
+      .muted { opacity: .7; font-size: .95rem; }
+      main { margin-top: 8px; }
+      footer { margin-top: 32px; opacity: .7; font-size: .95rem; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="/" aria-label="Torna alla home">← Home</a>
+        <h1>Informativa Privacy dell'app GymBroTools</h1>
+      </header>
+
+      <main>
+        <p class="muted">Ultimo aggiornamento: <time id="updated"></time></p>
+
+        <h2>1. Introduzione e ambito</h2>
+        <p>
+          GymBroTools è un'app mobile per il fitness. Questa informativa descrive
+          come vengono raccolti, utilizzati e protetti i dati personali degli utenti.
+          L'app è sviluppata e gestita da uno sviluppatore indipendente e si impegna
+          a tutelare la privacy degli utenti.
+        </p>
+        <p>
+          Importante: l'app non è destinata a minori di 13 anni. In caso di età
+          inferiore ai 13 anni l'accesso viene negato e nessun dato viene trattato.
+        </p>
+
+        <h2>2. Dati trattati</h2>
+        <p>
+          - Dati forniti dall'utente (es. email/username facoltativi, dettagli degli allenamenti).
+          Questi dati servono a creare l'account e a salvare le sessioni di allenamento.
+        </p>
+        <p>
+          - Dati tecnici/telemetria anonimi per stabilità e sicurezza (es. crash, performance),
+          raccolti tramite Microsoft Application Insights. Non vengono registrati nomi, email,
+          contenuti personali o identificatori diretti.
+        </p>
+        <p>
+          - Analisi facoltative sull'esperienza d'uso (session replay) tramite Microsoft Clarity
+          solo previo consenso esplicito. Le registrazioni sono anonime e limitate all'interfaccia
+          dell'app; possono essere disattivate in qualsiasi momento dalle impostazioni.
+        </p>
+
+        <h2>3. Finalità</h2>
+        <p>
+          Fornire le funzionalità dell'app, migliorare stabilità/sicurezza, analizzare in forma
+          aggregata l'usabilità (se autorizzato), e gestire eventuali richieste di supporto.
+          I dati non sono utilizzati per profilazione commerciale né marketing di terze parti.
+        </p>
+
+        <h2>4. Conservazione e sicurezza</h2>
+        <p>
+          Conserviamo i dati per il tempo necessario a fornire il servizio e adottiamo misure
+          tecniche e organizzative adeguate per proteggerli da accessi non autorizzati.
+        </p>
+
+        <h2>5. Condivisione</h2>
+        <p>
+          Non vendiamo dati personali. Possiamo utilizzare fornitori di servizi (es. Microsoft per
+          telemetria) esclusivamente per erogare funzionalità tecniche, nel rispetto degli accordi
+          e della normativa applicabile.
+        </p>
+
+        <h2>6. Diritti degli utenti</h2>
+        <p>
+          Gli utenti possono accedere, correggere o richiedere la cancellazione dei propri dati.
+          Possono inoltre revocare il consenso alle analisi facoltative in qualsiasi momento.
+        </p>
+
+        <h2>7. Contatti</h2>
+        <p>
+          Per domande o richieste sulla privacy: <a href="mailto:gymbrotools@gmail.com">gymbrotools@gmail.com</a>.
+        </p>
+      </main>
+
+      <footer>
+        <p>
+          Questa è una copia statica dell'informativa. La versione completa e multilingua è
+          disponibile anche nell'app e nel sito.
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      // Mostra la data odierna in formato locale
+      document.getElementById('updated').textContent = new Date().toLocaleDateString('it-IT');
+    </script>
+  </body>
+  </html>

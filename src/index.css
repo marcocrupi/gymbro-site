@@ -412,11 +412,28 @@ a:hover {
   .app-root {
     gap: 24px;
   }
+  /* Increase side breathing room on small screens */
+  .container {
+    width: min(1100px, 88vw);
+  }
   .hero {
     grid-template-columns: 1fr;
   }
   .device-frame {
     order: -1;
+  }
+  /* Make primary CTA full-width on its own row, others below */
+  .cta-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .cta-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .cta-buttons .btn-primary {
+    grid-column: 1 / -1;
   }
 }
 
