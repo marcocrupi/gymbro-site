@@ -9,10 +9,6 @@ export default function Terms() {
 
   return (
     <div className="container terms">
-      <header className="page-header" aria-label="Intestazione pagina Termini">
-        <Link to="/" className="btn btn-ghost">← Torna alla Home</Link>
-      </header>
-
       <h1>Termini e Condizioni di GymBroTools</h1>
       <p className="muted">Ultimo aggiornamento: {updated}</p>
 

@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 export default function Privacy() {
   const updated = new Date().toLocaleDateString("it-IT", {
     year: "numeric",
@@ -9,9 +7,6 @@ export default function Privacy() {
 
   return (
     <div className="container privacy">
-      <header className="page-header" aria-label="Intestazione pagina Privacy">
-        <Link to="/" className="btn btn-ghost">← Torna alla Home</Link>
-      </header>
       <h1>Informativa Privacy del’app GymBroTools</h1>
       <p className="muted">Ultimo aggiornamento: {updated}</p>
 

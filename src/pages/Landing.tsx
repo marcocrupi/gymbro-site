@@ -1,33 +1,30 @@
 import { Link } from "react-router-dom";
 import splash from "../assets/images/gymbrosplashscreen.jpg";
+import { useI18n } from "../i18n/useI18n";
 
 const PLAY_STORE_PLACEHOLDER = "#playstore-link";
 
 export default function Landing() {
+  const { t } = useI18n()
   return (
     <div className="landing">
       <section className="hero container">
         <div className="hero-content">
-          <h1 className="hero-title">GymBroTools</h1>
-          <p className="hero-subtitle">
-            La suite per atleti e trainer: piani di allenamento, gestione
-            sessioni, database esercizi con immagini, statistiche dei progressi
-            e strumenti come timer, cronometro e contatore set. Funziona anche
-            offline con sincronizzazione sicura quando sei connesso.
-          </p>
+          <h1 className="hero-title">{t('landing.title')}</h1>
+          <p className="hero-subtitle">{t('landing.subtitle')}</p>
           <div className="cta-buttons">
             <a
               href={PLAY_STORE_PLACEHOLDER}
               className="btn btn-primary"
               aria-disabled
             >
-              Scarica su Google Play
+              {t('landing.cta.download')}
             </a>
             <Link to="/privacy" className="btn btn-ghost">
-              Privacy policy
+              {t('landing.link.privacy')}
             </Link>
-            <Link to="/termini" className="btn btn-ghost">
-              Termini e Condizioni
+            <Link to="/terms" className="btn btn-ghost">
+              {t('landing.link.terms')}
             </Link>
           </div>
           {/* <ul className="feature-chips">
@@ -44,7 +41,7 @@ export default function Landing() {
               <img
                 className="screen-img"
                 src={splash}
-                alt="Anteprima GymBroTools"
+                alt={t('landing.image.alt')}
               />
             </div>
           </div>
