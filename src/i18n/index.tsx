@@ -20,6 +20,9 @@ const translations: Translations = {
     'landing.link.terms': 'Terms & Conditions',
     'landing.image.alt': 'GymBroTools preview',
     'header.language': 'Language',
+    'footer.link.websitePrivacy': 'Website Privacy & Cookies',
+    'footer.link.appPrivacy': 'App Privacy',
+    'footer.link.terms': 'Terms & Conditions',
   },
   it: {
     'app.name': 'GymBroTools',
@@ -31,6 +34,9 @@ const translations: Translations = {
     'landing.link.terms': 'Termini e Condizioni',
     'landing.image.alt': 'Anteprima GymBroTools',
     'header.language': 'Lingua',
+    'footer.link.websitePrivacy': 'Privacy & Cookie (sito)',
+    'footer.link.appPrivacy': 'Privacy dell’app',
+    'footer.link.terms': 'Termini e Condizioni',
   },
   es: {
     'app.name': 'GymBroTools',
@@ -42,6 +48,9 @@ const translations: Translations = {
     'landing.link.terms': 'Términos y Condiciones',
     'landing.image.alt': 'Vista previa de GymBroTools',
     'header.language': 'Idioma',
+    'footer.link.websitePrivacy': 'Privacidad y cookies (sitio)',
+    'footer.link.appPrivacy': 'Privacidad de la app',
+    'footer.link.terms': 'Términos y Condiciones',
   },
   fr: {
     'app.name': 'GymBroTools',
@@ -53,6 +62,9 @@ const translations: Translations = {
     'landing.link.terms': 'Termes et Conditions',
     'landing.image.alt': 'Aperçu de GymBroTools',
     'header.language': 'Langue',
+    'footer.link.websitePrivacy': 'Confidentialité & cookies (site)',
+    'footer.link.appPrivacy': "Confidentialité de l’app",
+    'footer.link.terms': 'Termes et Conditions',
   },
   pt: {
     'app.name': 'GymBroTools',
@@ -64,6 +76,9 @@ const translations: Translations = {
     'landing.link.terms': 'Termos e Condições',
     'landing.image.alt': 'Pré-visualização do GymBroTools',
     'header.language': 'Idioma',
+    'footer.link.websitePrivacy': 'Privacidade e cookies (site)',
+    'footer.link.appPrivacy': 'Privacidade da app',
+    'footer.link.terms': 'Termos e Condições',
   },
   de: {
     'app.name': 'GymBroTools',
@@ -75,6 +90,9 @@ const translations: Translations = {
     'landing.link.terms': 'Allgemeine Geschäftsbedingungen',
     'landing.image.alt': 'GymBroTools Vorschau',
     'header.language': 'Sprache',
+    'footer.link.websitePrivacy': 'Datenschutz & Cookies (Website)',
+    'footer.link.appPrivacy': 'App-Datenschutz',
+    'footer.link.terms': 'Allgemeine Geschäftsbedingungen',
   },
 }
 
@@ -112,6 +130,15 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
     setLangState(l)
     try { window.localStorage.setItem(STORAGE_KEY, l) } catch { /* ignore persistence errors */ }
   }, [])
+
+  useEffect(() => {
+    try {
+      if (typeof document !== 'undefined') {
+        document.documentElement.setAttribute('lang', lang)
+        document.documentElement.setAttribute('dir', 'ltr')
+      }
+    } catch { /* ignore environment without document */ }
+  }, [lang])
 
   const t = useCallback(
     (key: string) => {
