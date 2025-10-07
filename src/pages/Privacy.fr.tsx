@@ -21,16 +21,16 @@ export default function PrivacyFr() {
       </p>
       <p>
         <strong>IMPORTANT:</strong> l’app n’est pas destinée aux enfants de
-        moins de 13 ans. Au premier lancement, il est demandé à l’utilisateur
-        d’indiquer son année de naissance ; si l’utilisateur a moins de 13 ans,
+        moins de 13 ans. Au premier lancement, il est demandé à l’utilisateur
+        d’indiquer son année de naissance; si l’utilisateur a moins de 13 ans,
         l’accès à l’app est refusé et aucune donnée n’est collectée ni traitée.
-        Seuls les utilisateurs âgés de 13 ans ou plus peuvent utiliser
+        Seuls les utilisateurs âgés de 13 ans ou plus peuvent utiliser
         GymBroTools et accepter la présente Politique de confidentialité.
       </p>
       <p>
         GymBroTools ne collecte pas sciemment de données personnelles auprès
-        d’enfants de moins de 13 ans. Si nous apprenons que des données
-        concernant un enfant de moins de 13 ans ont été recueillies sans le
+        d’enfants de moins de 13 ans. Si nous apprenons que des données
+        concernant un enfant de moins de 13 ans ont été recueillies sans le
         consentement vérifiable des parents ou du tuteur, nous supprimerons ces
         données dans les plus brefs délais. Les utilisateurs ou les
         parents/tuteurs qui estiment qu’un mineur nous a communiqué des
@@ -51,14 +51,14 @@ export default function PrivacyFr() {
       <p>
         <strong>Données fournies par l’utilisateur:</strong> informations que
         l’utilisateur saisit volontairement, telles que les données
-        d’inscription (p. ex. e‑mail ou nom d’utilisateur) et les détails des
+        d’inscription (p. ex. e-mail ou nom d’utilisateur) et les détails des
         entraînements (séries, répétitions, charges). Ces données servent à
         créer le compte et à permettre à l’utilisateur d’enregistrer et de
         consulter ses entraînements. Les informations saisies restent privées,
         visibles uniquement par l’utilisateur et ne sont pas partagées avec
         d’autres utilisateurs ni avec des tiers, en dehors de ce qui est décrit
         dans la présente politique. Important: GymBroTools ne demande ni ne
-        collecte aucune donnée personnelle « sensible » ou biologique, telle que
+        collecte aucune donnée personnelle « sensible » ou biologique, telle que
         des données biométriques, des informations de santé, des photos, la
         localisation GPS, les contacts ou d’autres données non nécessaires à
         l’utilisation de l’app.
@@ -70,11 +70,11 @@ export default function PrivacyFr() {
         de l’application. Ces informations incluent, par exemple, les journaux
         d’erreurs, des métriques de performance, des données sur l’appareil
         (modèle, système d’exploitation) et des événements techniques généraux
-        (p. ex. chargement d’un écran ou appel d’API). Cette télémétrie ne
+        (p. ex. chargement d’un écran ou appel d’API). Cette télémétrie ne
         contient pas de données personnelles identifiables: noms, e‑mails,
         adresses ou contenus personnels des utilisateurs ne sont pas
         enregistrés. Nous avons configuré la télémétrie pour exclure les
-        informations potentiellement identifiantes (p. ex. URL complètes,
+        informations potentiellement identifiantes (p. ex. URL complètes,
         adresses e‑mail, identifiants d’utilisateur) et ne collecter que les
         données utiles pour garantir la stabilité et la sécurité de l’app.
         Application Insights est toujours actif pour surveiller l’état de
@@ -88,8 +88,8 @@ export default function PrivacyFr() {
         </strong>{" "}
         uniquement avec le consentement explicite de l’utilisateur, l’app peut
         utiliser Microsoft Clarity pour collecter des informations sur la
-        manière dont l’utilisateur interagit avec l’application (dite « session
-        replay »). Clarity enregistre de manière anonyme les sessions
+        manière dont l’utilisateur interagit avec l’application (dite « session
+        replay »). Clarity enregistre de manière anonyme les sessions
         d’utilisation — par exemple les touches sur l’écran, la navigation entre
         écrans et les actions de l’utilisateur — afin d’aider le développeur à
         améliorer l’interface et l’expérience utilisateur. Par défaut, Clarity
@@ -110,11 +110,11 @@ export default function PrivacyFr() {
       </p>
       <p>
         <strong>Fourniture du service et des fonctionnalités de l’app:</strong>
-        nous utilisons les données fournies par l’utilisateur (p. ex. compte et
+        nous utilisons les données fournies par l’utilisateur (p. ex. compte et
         données d’entraînement) pour lui permettre de s’inscrire, d’accéder à
         son profil, d’enregistrer des exercices et de consulter des
         statistiques. Ce traitement est essentiel au fonctionnement de
-        GymBroTools et à la fourniture des fonctionnalités demandées (p. ex.
+        GymBroTools et à la fourniture des fonctionnalités demandées (p. ex.
         synchronisation des entraînements entre appareils en mode
         offline‑first).
       </p>
@@ -160,7 +160,7 @@ export default function PrivacyFr() {
       <p>
         Nous traitons les données personnelles des utilisateurs uniquement
         lorsqu’il existe une base légale prévue par la réglementation applicable
-        (Règlement UE 2016/679 « RGPD » et lois équivalentes dans d’autres
+        (Règlement UE 2016/679 « RGPD » et lois équivalentes dans d’autres
         juridictions). En lien avec les finalités ci‑dessus, les bases
         juridiques sont:
       </p>
@@ -171,14 +171,14 @@ export default function PrivacyFr() {
         fournir le service demandé. Lorsqu’un utilisateur crée un compte et
         utilise GymBroTools, une relation contractuelle implicite est établie:
         ses données sont traitées afin de permettre l’utilisation de l’app et de
-        ses fonctionnalités (art. 6(1)(b) RGPD). Sans ces données, nous ne
+        ses fonctionnalités (art. 6(1)(b) RGPD). Sans ces données, nous ne
         pourrions pas fournir l’inscription, l’enregistrement des exercices et
         d’autres fonctionnalités clés de l’app.
       </p>
       <p>
         <strong>Intérêt légitime:</strong> le traitement des données techniques
         de télémétrie via Application Insights repose sur l’intérêt légitime du
-        développeur (art. 6(1)(f) RGPD). Cet intérêt consiste à assurer la
+        développeur (art. 6(1)(f) RGPD). Cet intérêt consiste à assurer la
         stabilité, la sécurité et l’amélioration continue du service, au
         bénéfice du développeur comme des utilisateurs. Nous avons évalué que ce
         traitement, limité à des données techniques anonymes, ne porte pas
@@ -194,12 +194,12 @@ export default function PrivacyFr() {
       <p>
         <strong>Consentement explicite:</strong> le traitement via Microsoft
         Clarity (relecture de session) n’a lieu que si l’utilisateur donne un
-        consentement libre, spécifique et éclairé (art. 6(1)(a) RGPD). Lors du
+        consentement libre, spécifique et éclairé (art. 6(1)(a) RGPD). Lors du
         premier usage, il est demandé à l’utilisateur s’il souhaite activer
         cette fonctionnalité optionnelle. En l’absence de consentement, Clarity
         reste désactivé et aucun enregistrement n’est effectué. L’utilisateur
         peut retirer son consentement à tout moment en désactivant
-        l’enregistrement des sessions dans les paramètres de l’app ; à partir de
+        l’enregistrement des sessions dans les paramètres de l’app; à partir de
         ce moment, aucune nouvelle donnée ne sera collectée via Clarity. Le
         retrait du consentement n’affecte pas la licéité des traitements
         effectués avant ce retrait.
@@ -207,8 +207,8 @@ export default function PrivacyFr() {
       <p>
         En plus de ces bases principales, GymBroTools peut traiter des données
         personnelles pour se conformer aux obligations légales applicables
-        (art. 6(1)(c) RGPD) ou pour protéger les intérêts vitaux des
-        utilisateurs ou d’autres personnes (cas rares, art. 6(1)(d)), bien que
+        (art. 6(1)(c) RGPD) ou pour protéger les intérêts vitaux des
+        utilisateurs ou d’autres personnes (cas rares, art. 6(1)(d)), bien que
         ces circonstances ne se présentent pas en pratique dans l’usage
         ordinaire de l’app.
       </p>
@@ -219,7 +219,7 @@ export default function PrivacyFr() {
         sous forme électronique et automatisée, en adoptant des mesures de
         sécurité appropriées pour prévenir les accès non autorisés, la
         divulgation ou l’altération des données. Les données sont stockées sur
-        des serveurs sécurisés (p. ex. infrastructure cloud Microsoft Azure) et
+        des serveurs sécurisés (p. ex. infrastructure cloud Microsoft Azure) et
         protégées au moyen de techniques de chiffrement et de contrôle d’accès.
         Le développeur unique de GymBroTools est la seule personne ayant un
         accès direct aux données aux fins d’exploitation de l’app et traite ces
@@ -237,30 +237,30 @@ export default function PrivacyFr() {
       </p>
       <p>
         <strong>Données de compte et d’entraînement:</strong> les informations
-        fournies par l’utilisateur (p. ex. e‑mail d’inscription, nom
+        fournies par l’utilisateur (p. ex. e‑mail d’inscription, nom
         d’utilisateur, séries/répétitions/charges enregistrées) sont conservées
         tant que le compte reste actif. En pratique, ces données demeurent
         stockées tant que l’utilisateur continue d’utiliser l’app et maintient
         son compte actif, afin de lui permettre d’accéder à son historique
         d’entraînements. L’utilisateur peut toujours modifier ou supprimer des
-        données individuelles (p. ex. supprimer un entraînement) directement
+        données individuelles (p. ex. supprimer un entraînement) directement
         depuis l’app. Il peut également demander la suppression complète de son
-        compte à tout moment (voir Droits des utilisateurs) ; dans ce cas,
+        compte à tout moment (voir Droits des utilisateurs) ; dans ce cas,
         toutes les données personnelles associées au compte seront
         définitivement supprimées de nos systèmes dans un court délai technique.
         Des données limitées peuvent être conservées au‑delà de la suppression
         uniquement sous forme agrégée ou anonyme, ou pour respecter des
-        obligations légales (p. ex. journaux de sécurité), mais pas de manière à
+        obligations légales (p. ex. journaux de sécurité), mais pas de manière à
         identifier l’utilisateur.
       </p>
       <p>
         <strong>Télémétrie technique (Application Insights):</strong> les
         données collectées automatiquement sur les erreurs et performances via
         Application Insights sont conservées pour une durée maximale de
-        90 jours. Cette durée est conforme aux paramètres standards de la
+        90 jours. Cette durée est conforme aux paramètres standards de la
         plateforme et permet de disposer d’un historique récent pour l’analyse
         et le débogage, sans conserver les informations plus longtemps que
-        nécessaire. Passé environ 90 jours, les journaux et télémétries plus
+        nécessaire. Passé environ 90 jours, les journaux et télémétries plus
         anciens sont automatiquement supprimés ou écrasés. Dans tous les cas,
         s’agissant de données anonymes, il n’est pas possible de remonter à un
         utilisateur spécifique, et leur suppression est effectuée conformément
@@ -271,11 +271,11 @@ export default function PrivacyFr() {
         les données collectées via Clarity (si l’utilisateur a consenti) sont
         conservées pour des périodes limitées, conformément aux politiques du
         service Microsoft Clarity. En particulier, les enregistrements détaillés
-        des sessions des utilisateurs (p. ex. relectures d’écran) sont conservés
-        pendant une courte période, généralement jusqu’à 30 jours à compter de
+        des sessions des utilisateurs (p. ex. relectures d’écran) sont conservés
+        pendant une courte période, généralement jusqu’à 30 jours à compter de
         leur collecte. Les analyses agrégées et anonymes dérivées de ces
         sessions peuvent être conservées plus longtemps, jusqu’à un maximum de
-        13 mois, afin de permettre des analyses de tendances annuelles. Au‑delà
+        13 mois, afin de permettre des analyses de tendances annuelles. Au‑delà
         de ces délais, ces données sont également supprimées automatiquement par
         les systèmes de Clarity. Le développeur de GymBroTools ne conserve pas
         de copies locales des données de relecture de session: l’accès
@@ -323,24 +323,24 @@ export default function PrivacyFr() {
         <strong>Droit de rectification:</strong> droit d’obtenir la correction
         des données personnelles inexactes le concernant et de faire compléter
         les données incomplètes. L’utilisateur peut corriger ses données
-        directement dans l’app lorsque c’est possible (p. ex. données du compte)
+        directement dans l’app lorsque c’est possible (p. ex. données du compte)
         ou en nous contactant pour les mises à jour.
       </p>
       <p>
-        <strong>Droit à l’effacement (« droit à l’oubli »):</strong> droit
+        <strong>Droit à l’effacement (« droit à l’oubli »):</strong> droit
         d’obtenir la suppression des données personnelles le concernant
         lorsqu’elles ne sont plus nécessaires aux finalités pour lesquelles
         elles ont été collectées ou lorsque le consentement est retiré (lorsque
         le traitement est fondé sur le consentement), sous réserve des
         obligations légales pouvant imposer une conservation. En pratique,
         l’utilisateur peut demander la suppression de son compte et des données
-        personnelles associées ; à la suite de la demande, les données seront
+        personnelles associées ; à la suite de la demande, les données seront
         définitivement supprimées de nos systèmes dans un bref délai technique.
       </p>
       <p>
         <strong>Droit à la limitation du traitement:</strong> droit d’obtenir
         la limitation du traitement des données personnelles dans certaines
-        circonstances (p. ex. lorsque l’exactitude des données est contestée ou
+        circonstances (p. ex. lorsque l’exactitude des données est contestée ou
         lorsque le traitement est illicite et que l’utilisateur, plutôt que la
         suppression, demande la limitation).
       </p>
@@ -384,7 +384,7 @@ export default function PrivacyFr() {
         tout moment à l’adresse{" "}
         <a href="mailto:marcocrupi@hotmail.it">marcocrupi@hotmail.it</a>. Les
         demandes seront traitées dans les délais prévus par la loi (en général
-        sous 30 jours, délai prolongeable en cas de demandes complexes) et sans
+        sous 30 jours, délai prolongeable en cas de demandes complexes) et sans
         frais pour l’utilisateur, sauf demandes manifestement infondées ou
         excessives.
       </p>
@@ -418,7 +418,7 @@ export default function PrivacyFr() {
         sont gérés de manière sécurisée. GymBroTools intègre Microsoft Entra ID
         (Azure AD) pour l’authentification: l’app n’enregistre donc pas de mots
         de passe en clair dans ses bases de données et s’appuie sur Microsoft
-        pour la gestion sécurisée des accès (p. ex. via des jetons OIDC/PKCE).
+        pour la gestion sécurisée des accès (p. ex. via des jetons OIDC/PKCE).
         Tout jeton d’authentification est stocké de manière sécurisée sur
         l’appareil de l’utilisateur et n’est pas accessible par d’autres apps.
       </p>
