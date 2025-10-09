@@ -8,7 +8,7 @@ import screen004 from "../assets/images/screen004.png";
 import screen005 from "../assets/images/screen005.png";
 import screen006 from "../assets/images/screen006.png";
 
-const PLAY_STORE_PLACEHOLDER = "#playstore-link";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.gymbrotools.app";
 
 export default function Landing() {
   const { t } = useI18n()
@@ -31,9 +31,10 @@ export default function Landing() {
           <p className="hero-subtitle">{t('landing.subtitle')}</p>
           <div className="cta-buttons">
             <a
-              href={PLAY_STORE_PLACEHOLDER}
+              href={PLAY_STORE_URL}
               className="btn btn-primary"
-              aria-disabled
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {t('landing.cta.download')}
             </a>
