@@ -92,6 +92,8 @@ a:hover {
 .btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center; /* center label horizontally */
+  text-align: center; /* ensure multi-line text is centered */
   gap: 0.5rem;
   border-radius: 999px;
   padding: 10px 16px;
@@ -208,9 +210,16 @@ a:hover {
   place-items: center;
 }
 .home-bg {
-  background:
-    radial-gradient(1000px circle at 15% -10%, rgba(41, 121, 254, 0.22), rgba(41, 121, 254, 0) 60%),
-    radial-gradient(900px circle at 85% 110%, rgba(41, 121, 254, 0.16), rgba(41, 121, 254, 0) 60%),
+  background: radial-gradient(
+      1000px circle at 15% -10%,
+      rgba(41, 121, 254, 0.22),
+      rgba(41, 121, 254, 0) 60%
+    ),
+    radial-gradient(
+      900px circle at 85% 110%,
+      rgba(41, 121, 254, 0.16),
+      rgba(41, 121, 254, 0) 60%
+    ),
     linear-gradient(180deg, var(--bg) 0%, #0d151f 100%);
 }
 .site-footer {
@@ -240,13 +249,15 @@ a:hover {
 }
 .hero-title {
   font-size: clamp(2rem, 4.5vw, 3.2rem);
-  line-height: 1.1;
+  line-height: 1.2;
   margin: 6px 0 12px;
+  padding-bottom: 12px;
   letter-spacing: 0.3px;
 }
 .hero-title {
   background: linear-gradient(180deg, #fff, #b9d9ff 60%);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
@@ -254,12 +265,52 @@ a:hover {
   color: var(--muted);
   font-size: 1.05rem;
   max-width: 65ch;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-.cta-buttons {
+/* Primary and secondary CTAs */
+.cta-primary {
+  margin-top: 24px;
+}
+/* Make the Google Play button larger on the home hero */
+.cta-primary .btn-primary {
+  padding: 14px 32px;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.cta-secondary {
   display: flex;
   gap: 12px;
-  margin-top: 18px;
-  flex-wrap: wrap;
+  margin-top: 24px; /* 24px distance from the download button on desktop */
+  flex-wrap: wrap; /* allow wrapping if two buttons don't fit side-by-side */
+}
+/* Hidden by default; shown only on mobile */
+.cta-secondary-mobile {
+  display: none;
+}
+/* On desktop layout, place secondary CTAs under the text (column 1) */
+.hero .cta-secondary {
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: start;
+}
+.cta-buttons {
+  /* Arrange primary on first row, others on the next */
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 12px; /* column gap */
+  row-gap: 24px; /* extra vertical space from the primary CTA */
+  margin-top: 24px;
+  align-items: center;
+  justify-items: start;
+  margin-bottom: 24px;
+}
+/* Make the Google Play button larger on the home hero */
+.cta-buttons .btn-primary {
+  padding: 14px 32px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  grid-column: 1 / -1; /* force next buttons to wrap to a new line */
 }
 .feature-chips {
   display: flex;
@@ -422,18 +473,49 @@ a:hover {
   .device-frame {
     order: -1;
   }
-  /* Make primary CTA full-width on its own row, others below */
+  /* Mobile: hide desktop secondary CTAs and show the mobile block under the device */
+  .cta-secondary {
+    display: none;
+  }
+  .cta-secondary-mobile {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 12px;
+  }
+  .cta-secondary-mobile .btn-ghost {
+    font-size: clamp(0.95rem, 3.2vw, 1rem);
+    padding: clamp(10px, 2.6vw, 12px) clamp(14px, 3.6vw, 16px);
+    white-space: nowrap; /* keep one-line labels */
+  }
+  .cta-primary .btn-primary {
+    width: 100%; /* comfortable to tap */
+    font-size: clamp(1rem, 3.8vw, 1.1rem);
+    padding: clamp(12px, 3vw, 14px) clamp(18px, 4vw, 22px);
+  }
+  /* Layout mobile: pulsanti sotto il primario, dimensioni fluide */
   .cta-buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    grid-template-columns: 1fr; /* stack Privacy/Terms verticalmente */
+    gap: 10px;
+    row-gap: 12px; /* meno distanza verticale rispetto al desktop */
+    justify-items: center;
   }
   .cta-buttons .btn {
-    width: 100%;
+    width: auto; /* evita pulsanti troppo larghi e distanti */
     justify-content: center;
   }
+  .cta-buttons .btn-ghost {
+    /* Scala con lo schermo, senza diventare troppo piccola */
+    font-size: clamp(0.95rem, 3.2vw, 1rem);
+    padding: clamp(10px, 2.6vw, 12px) clamp(14px, 3.6vw, 16px);
+    white-space: nowrap; /* impedisce l'andata a capo del testo */
+  }
   .cta-buttons .btn-primary {
-    grid-column: 1 / -1;
+    grid-column: 1; /* una colonna: occupa la sua riga */
+    width: 100%; /* resta comodo da toccare su mobile */
+    font-size: clamp(1rem, 3.8vw, 1.1rem);
+    padding: clamp(12px, 3vw, 14px) clamp(18px, 4vw, 22px);
   }
 }
 

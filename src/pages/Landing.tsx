@@ -29,7 +29,7 @@ export default function Landing() {
         <div className="hero-content">
           <h1 className="hero-title">{t('landing.title')}</h1>
           <p className="hero-subtitle">{t('landing.subtitle')}</p>
-          <div className="cta-buttons">
+          <div className="cta-primary">
             <a
               href={PLAY_STORE_URL}
               className="btn btn-primary"
@@ -38,6 +38,8 @@ export default function Landing() {
             >
               {t('landing.cta.download')}
             </a>
+          </div>
+          <div className="cta-secondary">
             <Link to="/privacy" className="btn btn-ghost">
               {t('landing.link.privacy')}
             </Link>
@@ -87,6 +89,14 @@ export default function Landing() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="cta-secondary-mobile">
+          <Link to="/privacy" className="btn btn-ghost">
+            {t('landing.link.privacy')}
+          </Link>
+          <Link to="/terms" className="btn btn-ghost">
+            {t('landing.link.terms')}
+          </Link>
         </div>
       </section>
 
