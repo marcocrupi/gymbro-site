@@ -23,11 +23,16 @@ import { LangSwitcher } from './i18n'
 import logo from './assets/images/logo.png'
 import { useI18n } from './i18n/useI18n'
 import Footer from './components/Footer'
+import { useEffect } from 'react'
+import { applySeo } from './seo'
 
 function App() {
   const { lang } = useI18n()
   const location = useLocation()
   const isHome = location.pathname === '/'
+  useEffect(() => {
+    applySeo(lang)
+  }, [lang])
   return (
     <div className={"app-root" + (isHome ? " home-bg" : "")}>
       <header className="site-header">
