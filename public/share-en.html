@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GymBroTools - Your complete fitness app</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/logo512px.png" />
+    <meta name="description" content="App for athletes and trainers: workout plans, progress stats, and tools like timer, stopwatch and set counter." />
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:site_name" content="GymBroTools" />
+    <meta property="og:title" content="GymBroTools - Your complete fitness app" />
+    <meta property="og:description" content="App for athletes and trainers: workout plans, progress stats, and tools like timer, stopwatch and set counter." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="it_IT" />
+    <meta property="og:url" content="https://gymbrotools.com/share-en.html" />
+    <meta property="og:image" content="https://gymbrotools.com/logo512px.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GymBroTools - Your complete fitness app" />
+    <meta name="twitter:description" content="App for athletes and trainers: workout plans, progress stats, and tools like timer, stopwatch and set counter." />
+    <meta name="twitter:image" content="https://gymbrotools.com/logo512px.png" />
+
+    <!-- JSON-LD Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "GymBroTools",
+        "url": "https://gymbrotools.com/",
+        "logo": "https://gymbrotools.com/logo512px.png"
+      }
+    </script>
+
+    <!-- Noindex just in case you don't want this helper page indexed -->
+    <meta name="robots" content="noindex,follow" />
+  </head>
+  <body>
+    <noscript>
+      <p>
+        You are being redirected to the English homepage. If not, click
+        <a href="/">here</a>.
+      </p>
+    </noscript>
+
+    <script>
+      // Force English for the app, then redirect to the main homepage.
+      try { localStorage.setItem('gymbro.lang', 'en'); } catch (e) {}
+      location.replace('/');
+    </script>
+  </body>
+  </html>
+
