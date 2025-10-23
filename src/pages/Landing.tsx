@@ -1,26 +1,29 @@
 import { Link } from "react-router-dom";
 import { useI18n } from "../i18n/useI18n";
-import { useState, useMemo } from "react";
-import screen001 from "../assets/images/screen001.png";
-import screen002 from "../assets/images/screen002.png";
-import screen003 from "../assets/images/screen003.png";
-import screen004 from "../assets/images/screen004.png";
-import screen005 from "../assets/images/screen005.png";
-import screen006 from "../assets/images/screen006.png";
+import { useEffect, useMemo, useState } from "react";
+// Language-specific screenshots: IT uses "screen ita", all others use "screen eng"
+import it001 from "../assets/images/screen ita/screen001.png";
+import it002 from "../assets/images/screen ita/screen002.png";
+import it003 from "../assets/images/screen ita/screen003.png";
+import it004 from "../assets/images/screen ita/screen004.png";
+import it005 from "../assets/images/screen ita/screen005.png";
+import it006 from "../assets/images/screen ita/screen006.png";
+import en001 from "../assets/images/screen eng/screen001.png";
+import en002 from "../assets/images/screen eng/screen002.png";
+import en003 from "../assets/images/screen eng/screen003.png";
+import en004 from "../assets/images/screen eng/screen004.png";
+import en005 from "../assets/images/screen eng/screen005.png";
+import en006 from "../assets/images/screen eng/screen006.png";
 
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.gymbrotools.app";
 
 export default function Landing() {
-  const { t } = useI18n()
-  const screenshots = useMemo(() => [
-    screen001,
-    screen002,
-    screen003,
-    screen004,
-    screen005,
-    screen006,
-  ], [])
+  const { t, lang } = useI18n()
+  const screenshotsIt = useMemo(() => [it001, it002, it003, it004, it005, it006], [])
+  const screenshotsEn = useMemo(() => [en001, en002, en003, en004, en005, en006], [])
+  const screenshots = useMemo(() => (lang === 'it' ? screenshotsIt : screenshotsEn), [lang, screenshotsIt, screenshotsEn])
   const [index, setIndex] = useState(0)
+  useEffect(() => { setIndex(0) }, [lang])
   const prev = () => setIndex(i => (i - 1 + screenshots.length) % screenshots.length)
   const next = () => setIndex(i => (i + 1) % screenshots.length)
   return (
