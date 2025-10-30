@@ -81,27 +81,7 @@ export default function PrivacyFr() {
         l’application et est configuré avec un échantillonnage limité (en
         production) afin de minimiser la quantité de données collectées.
       </p>
-      <p>
-        <strong>
-          Données analytiques facultatives (relecture de session avec Microsoft
-          Clarity):
-        </strong>{" "}
-        uniquement avec le consentement explicite de l’utilisateur, l’app peut
-        utiliser Microsoft Clarity pour collecter des informations sur la
-        manière dont l’utilisateur interagit avec l’application (dite « session
-        replay »). Clarity enregistre de manière anonyme les sessions
-        d’utilisation — par exemple les touches sur l’écran, la navigation entre
-        écrans et les actions de l’utilisateur — afin d’aider le développeur à
-        améliorer l’interface et l’expérience utilisateur. Par défaut, Clarity
-        est désactivé et aucune session n’est enregistrée sans consentement: au
-        premier lancement, il est demandé à l’utilisateur s’il souhaite activer
-        cette fonctionnalité optionnelle. Même lorsqu’il est activé, Clarity ne
-        collecte pas de données personnellement identifiables ni d’audio/vidéo
-        externes à l’app: il enregistre uniquement l’interface de l’app et les
-        interactions, en masquant les informations potentiellement sensibles.
-        L’utilisateur peut activer ou désactiver à tout moment la relecture de
-        session depuis les paramètres de confidentialité de l’app.
-      </p>
+      
 
       <h2>3. Finalités du traitement</h2>
       <p>
@@ -129,17 +109,7 @@ export default function PrivacyFr() {
         erreurs, optimiser l’infrastructure et assurer un fonctionnement fiable
         sur différents appareils.
       </p>
-      <p>
-        <strong>Analyse de l’expérience utilisateur (facultatif):</strong> les
-        données d’usage collectées via Microsoft Clarity, si l’utilisateur y a
-        consenti, sont utilisées pour une analyse agrégée et anonyme de
-        l’utilisation de l’app. L’objectif est de mieux comprendre le
-        comportement des utilisateurs dans l’interface (écrans visités, boutons
-        pressés, éventuels points de friction) afin d’améliorer le design et
-        l’ergonomie de GymBroTools. Cette analyse aide le développeur à prendre
-        des décisions éclairées sur l’évolution de l’application, toujours dans
-        l’intérêt des utilisateurs.
-      </p>
+      
       <p>
         <strong>Communications d’assistance:</strong> les coordonnées de
         contact (telles que l’e‑mail fourni lors de l’inscription) peuvent être
@@ -191,19 +161,7 @@ export default function PrivacyFr() {
         tenant compte du fait que la télémétrie est fondamentale pour prévenir
         les dysfonctionnements et protéger les données.
       </p>
-      <p>
-        <strong>Consentement explicite:</strong> le traitement via Microsoft
-        Clarity (relecture de session) n’a lieu que si l’utilisateur donne un
-        consentement libre, spécifique et éclairé (art. 6(1)(a) RGPD). Lors du
-        premier usage, il est demandé à l’utilisateur s’il souhaite activer
-        cette fonctionnalité optionnelle. En l’absence de consentement, Clarity
-        reste désactivé et aucun enregistrement n’est effectué. L’utilisateur
-        peut retirer son consentement à tout moment en désactivant
-        l’enregistrement des sessions dans les paramètres de l’app; à partir de
-        ce moment, aucune nouvelle donnée ne sera collectée via Clarity. Le
-        retrait du consentement n’affecte pas la licéité des traitements
-        effectués avant ce retrait.
-      </p>
+      
       <p>
         En plus de ces bases principales, GymBroTools peut traiter des données
         personnelles pour se conformer aux obligations légales applicables
@@ -266,22 +224,7 @@ export default function PrivacyFr() {
         utilisateur spécifique, et leur suppression est effectuée conformément
         aux politiques de conservation de Microsoft Azure Application Insights.
       </p>
-      <p>
-        <strong>Données de relecture de session (Microsoft Clarity):</strong>
-        les données collectées via Clarity (si l’utilisateur a consenti) sont
-        conservées pour des périodes limitées, conformément aux politiques du
-        service Microsoft Clarity. En particulier, les enregistrements détaillés
-        des sessions des utilisateurs (p. ex. relectures d’écran) sont conservés
-        pendant une courte période, généralement jusqu’à 30 jours à compter de
-        leur collecte. Les analyses agrégées et anonymes dérivées de ces
-        sessions peuvent être conservées plus longtemps, jusqu’à un maximum de
-        13 mois, afin de permettre des analyses de tendances annuelles. Au‑delà
-        de ces délais, ces données sont également supprimées automatiquement par
-        les systèmes de Clarity. Le développeur de GymBroTools ne conserve pas
-        de copies locales des données de relecture de session: l’accès
-        s’effectue via le compte Clarity et est soumis aux mesures de protection
-        et de conservation de Microsoft.
-      </p>
+      
       <p>
         <strong>Transferts de données à l’étranger:</strong> les données
         personnelles collectées par GymBroTools peuvent être transférées et
@@ -356,9 +299,7 @@ export default function PrivacyFr() {
         <strong>Droit d’opposition:</strong> droit de s’opposer, pour des
         raisons tenant à sa situation particulière, aux traitements fondés sur
         l’intérêt légitime (tels que la télémétrie technique via Application
-        Insights). Dans l’app, l’utilisateur peut facilement désactiver le
-        traitement facultatif (Clarity) en refusant ou en retirant le
-        consentement relatif à l’enregistrement des sessions.
+        Insights).
       </p>
       <p>
         <strong>Droit d’introduire une réclamation:</strong> si l’utilisateur
@@ -428,9 +369,6 @@ export default function PrivacyFr() {
         personnelle. Par exemple, Application Insights n’utilise pas de cookies
         dans l’app (s’agissant d’une app mobile) et supprime automatiquement les
         références potentielles à des identifiants personnels dans les journaux.
-        Microsoft Clarity, s’il est activé, applique des techniques de masquage
-        (par exemple pour les champs de saisie texte) afin d’éviter la collecte
-        d’informations sensibles lors des enregistrements de sessions.
       </p>
 
       <h2>8. Responsable du traitement et contact</h2>

@@ -70,23 +70,7 @@ export default function PrivacyEn() {
         application’s status and is configured with limited sampling (in
         production) to minimize the amount of data collected.
       </p>
-      <p>
-        <strong>
-          Optional analytics data (session replay with Microsoft Clarity):
-        </strong>{" "}
-        only with the user’s explicit consent, the app may use Microsoft Clarity
-        to collect information about how the user interacts with the app
-        (so‑called “session replay”). Clarity anonymously records usage sessions
-        — for example, screen taps, navigation between screens, and user actions
-        — to help the developer understand how to improve the interface and the
-        user experience. By default Clarity is disabled and no sessions are
-        recorded without consent: on first app launch, users are asked whether
-        to enable this optional feature. Even if enabled, Clarity does not
-        capture personally identifiable data nor any audio/video outside the
-        app: it only records the app UI and interactions, masking any
-        potentially sensitive information. The user can enable or disable
-        session replay at any time from the app’s privacy settings.
-      </p>
+      
 
       <h2>3. Purposes of Processing</h2>
       <p>
@@ -109,16 +93,7 @@ export default function PrivacyEn() {
         us fix errors, optimize the infrastructure, and ensure the app works
         reliably across different devices.
       </p>
-      <p>
-        <strong>User experience analysis (optional):</strong> usage data
-        collected via Microsoft Clarity, if the user has consented, is used for
-        aggregated and anonymous analysis of how the app is used. The purpose is
-        to better understand user behavior in the interface (which screens are
-        visited, which buttons are pressed, where difficulties arise) in order
-        to improve GymBroTools’ design and usability. This analysis helps the
-        developer make informed decisions about how to evolve the app, always in
-        users’ best interests.
-      </p>
+      
       <p>
         <strong>Support communications:</strong> contact data (such as the email
         provided during registration) may be used for service communications
@@ -163,17 +138,7 @@ export default function PrivacyEn() {
         the Rights section), considering that telemetry is fundamental to
         prevent malfunctions and protect data.
       </p>
-      <p>
-        <strong>Explicit consent:</strong> processing via Microsoft Clarity
-        (session replay) occurs only if the user gives free, specific, and
-        informed consent (Art. 6(1)(a) GDPR). On first use, the user is asked if
-        they want to enable this optional feature. Without consent, Clarity
-        remains disabled and no recording is performed. The user may withdraw
-        consent at any time by disabling session recording in the app settings;
-        from that moment, no new data will be collected via Clarity. Withdrawal
-        of consent does not affect the lawfulness of processing carried out
-        before withdrawal.
-      </p>
+      
       <p>
         In addition to these main bases, GymBroTools may process personal data
         to comply with applicable legal obligations (Art. 6(1)(c) GDPR) or to
@@ -226,20 +191,7 @@ export default function PrivacyEn() {
         user, and deletion occurs in accordance with Microsoft Azure Application
         Insights’ retention policies.
       </p>
-      <p>
-        <strong>Session replay data (Microsoft Clarity):</strong> data collected
-        through Clarity (if the user has consented) is retained for limited
-        periods, according to Microsoft Clarity’s service policies. In
-        particular, detailed user session recordings (e.g., screen replays) are
-        retained for a short period, typically up to 30 days from collection.
-        Aggregated and anonymous analytics derived from those sessions may be
-        retained for a longer period, up to a maximum of 13 months, to allow for
-        annual trend analysis. After those periods, this data is also
-        automatically deleted by Clarity’s systems. The GymBroTools developer
-        does not locally store copies of session replay data: access takes place
-        via the Clarity account and is subject to Microsoft’s protection and
-        retention measures.
-      </p>
+      
       <p>
         <strong>Data transfers abroad:</strong> personal data collected by
         GymBroTools may be transferred to and processed in countries outside the
@@ -306,9 +258,7 @@ export default function PrivacyEn() {
         <strong>Right to object:</strong> the right to object, on grounds
         relating to their particular situation, to processing based on
         legitimate interest (such as technical telemetry via Application
-        Insights). In the app, users can easily disable optional processing
-        (Clarity) simply by refusing or withdrawing consent for session
-        recording.
+        Insights).
       </p>
       <p>
         <strong>Right to lodge a complaint:</strong> if users believe that their
@@ -368,9 +318,7 @@ export default function PrivacyEn() {
         anonymize any potentially personal information. For example, Application
         Insights does not use cookies in the app (being a mobile app) and
         automatically removes potential references to personal identifiers in
-        logs. Microsoft Clarity, if enabled, applies masking techniques (for
-        example for text input fields) to avoid collecting sensitive information
-        during session recordings.
+        logs.
       </p>
 
       <h2>8. Data Controller and Contact</h2>

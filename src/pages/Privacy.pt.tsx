@@ -77,23 +77,7 @@ export default function PrivacyPt() {
         configurado com amostragem limitada (em produção) para minimizar a
         quantidade de dados recolhidos.
       </p>
-      <p>
-        <strong>Dados analíticos opcionais (reprodução de sessões com
-        Microsoft Clarity):</strong> apenas com o consentimento explícito do
-        utilizador, a app pode utilizar o Microsoft Clarity para recolher
-        informação sobre a interação do utilizador com a app (o chamado
-        «session replay»). O Clarity regista de forma anónima as sessões de
-        utilização — por exemplo, toques no ecrã, navegação entre ecrãs e ações
-        do utilizador — para ajudar o programador a melhorar a interface e a
-        experiência de utilização. Por predefinição, o Clarity está desativado e
-        nenhuma sessão é registada sem consentimento: no primeiro arranque, é
-        perguntado ao utilizador se pretende ativar esta funcionalidade
-        opcional. Mesmo quando ativado, o Clarity não recolhe dados pessoais
-        identificáveis nem áudio/vídeo externos à app: regista apenas a
-        interface da app e as interações, mascarando informação potencialmente
-        sensível. O utilizador pode ativar ou desativar a reprodução de sessões a
-        qualquer momento nas definições de privacidade da app.
-      </p>
+      
 
       <h2>3. Finalidades do tratamento</h2>
       <p>
@@ -118,17 +102,7 @@ export default function PrivacyPt() {
         infraestrutura e assegurar que a app funciona de forma fiável em
         diferentes dispositivos.
       </p>
-      <p>
-        <strong>Análise da experiência do utilizador (opcional):</strong> os
-        dados de utilização recolhidos com o Microsoft Clarity, se o utilizador
-        tiver consentido, são utilizados para análises agregadas e anónimas sobre
-        a forma como a app é utilizada. O objetivo é compreender melhor o
-        comportamento dos utilizadores na interface (que ecrãs são visitados,
-        que botões são premidos, eventuais pontos de dificuldade) para melhorar o
-        design e a usabilidade da GymBroTools. Esta análise ajuda o programador
-        a tomar decisões informadas sobre a evolução da app, sempre no interesse
-        dos utilizadores.
-      </p>
+      
       <p>
         <strong>Comunicações de suporte:</strong> os dados de contacto (como o
         e-mail fornecido no registo) podem ser utilizados para comunicações de
@@ -176,18 +150,7 @@ export default function PrivacyPt() {
         tendo em conta que a telemetria é fundamental para prevenir
         mau-funcionamentos e proteger os dados.
       </p>
-      <p>
-        <strong>Consentimento explícito:</strong> o tratamento através do
-        Microsoft Clarity (reprodução de sessões) ocorre apenas se o utilizador
-        der um consentimento livre, específico e informado (art. 6(1)(a) RGPD).
-        No primeiro uso, é perguntado ao utilizador se pretende ativar esta
-        funcionalidade opcional. Na ausência de consentimento, o Clarity
-        permanece desativado e nenhuma gravação é efetuada. O utilizador pode
-        retirar o consentimento a qualquer momento, desativando a gravação das
-        sessões nas definições da app; a partir desse momento, não serão
-        recolhidos novos dados através do Clarity. A retirada do consentimento
-        não afeta a licitude do tratamento efetuado anteriormente.
-      </p>
+      
       <p>
         Para além destas bases principais, a GymBroTools pode tratar dados
         pessoais para cumprir obrigações legais aplicáveis (art. 6(1)(c) RGPD)
@@ -244,21 +207,7 @@ export default function PrivacyPt() {
         eliminação ocorre em conformidade com as políticas de retenção do
         Microsoft Azure Application Insights.
       </p>
-      <p>
-        <strong>Dados de reprodução de sessões (Microsoft Clarity):</strong> os
-        dados recolhidos através do Clarity (se o utilizador tiver consentido)
-        são conservados por períodos limitados, de acordo com as políticas do
-        serviço Microsoft Clarity. Em particular, as gravações detalhadas das
-        sessões dos utilizadores (por exemplo, reproduções de ecrã) são
-        conservadas por um curto período, normalmente até 30 dias a partir da
-        recolha. As análises agregadas e anónimas derivadas dessas sessões podem
-        ser conservadas por um período maior, até um máximo de 13 meses, para
-        permitir análises de tendências anuais. Após esses prazos, estes dados
-        são também eliminados automaticamente pelos sistemas do Clarity. O
-        programador da GymBroTools não conserva cópias locais dos dados de
-        reprodução de sessões: o acesso ocorre através da conta do Clarity e está
-        sujeito às medidas de proteção e retenção da Microsoft.
-      </p>
+      
       <p>
         <strong>Transferência de dados para o estrangeiro:</strong> os dados
         pessoais recolhidos pela GymBroTools podem ser transferidos e tratados
@@ -332,9 +281,7 @@ export default function PrivacyPt() {
         <strong>Direito de oposição:</strong> direito de se opor, por motivos
         relacionados com a sua situação particular, ao tratamento baseado no
         interesse legítimo (como a telemetria técnica através do Application
-        Insights). Na app, o utilizador pode desativar facilmente o tratamento
-        opcional (Clarity), bastando recusar ou revogar o consentimento para a
-        gravação de sessões.
+        Insights).
       </p>
       <p>
         <strong>Direito de apresentar reclamação:</strong> se o utilizador
@@ -399,10 +346,7 @@ export default function PrivacyPt() {
         recolhidos e anonimizamos qualquer informação potencialmente pessoal. Por
         exemplo, o Application Insights não utiliza cookies na app (sendo uma
         app móvel) e remove automaticamente referências potenciais a
-        identificadores pessoais nos registos. O Microsoft Clarity, se ativado,
-        aplica técnicas de mascaramento (por exemplo, para campos de entrada de
-        texto) para evitar a recolha de informação sensível durante as
-        gravações das sessões.
+        identificadores pessoais nos registos.
       </p>
 
       <h2>8. Responsável pelo tratamento e contactos</h2>
@@ -428,4 +372,3 @@ export default function PrivacyPt() {
     </div>
   )
 }
-

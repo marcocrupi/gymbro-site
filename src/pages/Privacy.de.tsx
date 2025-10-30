@@ -78,23 +78,7 @@ export default function PrivacyDe() {
         Anwendung zu überwachen, und ist (in Produktion) mit begrenztem
         Sampling konfiguriert, um die erhobene Datenmenge zu minimieren.
       </p>
-      <p>
-        <strong>Optionale Analysedaten (Session Replay mit Microsoft
-        Clarity):</strong> Nur mit ausdrücklicher Einwilligung des Nutzers kann
-        die App Microsoft Clarity verwenden, um Informationen darüber zu sammeln,
-        wie der Nutzer mit der App interagiert (sogenanntes „Session Replay“).
-        Clarity zeichnet Nutzungssitzungen anonym auf – z. B. Bildschirmtaps,
-        Navigation zwischen Ansichten und Nutzeraktionen –, um dem Entwickler zu
-        helfen, Oberfläche und Nutzererlebnis zu verbessern. Standardmäßig ist
-        Clarity deaktiviert, und ohne Einwilligung werden keine Sitzungen
-        aufgezeichnet: Beim ersten Start wird gefragt, ob diese optionale
-        Funktion aktiviert werden soll. Selbst wenn aktiviert, erfasst Clarity
-        keine personenbezogenen Daten und keine Audio/Video‑Inhalte außerhalb der
-        App: Es werden ausschließlich die App‑Oberfläche und Interaktionen
-        aufgezeichnet, wobei potenziell sensible Informationen maskiert werden.
-        Der Nutzer kann das Session Replay jederzeit in den Privatsphäre‑
-        Einstellungen der App aktivieren oder deaktivieren.
-      </p>
+      
 
       <h2>3. Zwecke der Verarbeitung</h2>
       <p>
@@ -120,17 +104,7 @@ export default function PrivacyDe() {
         Fehler zu beheben, die Infrastruktur zu optimieren und einen
         zuverlässigen Betrieb auf verschiedenen Geräten sicherzustellen.
       </p>
-      <p>
-        <strong>Analyse des Nutzererlebnisses (optional):</strong>
-        Nutzungsdaten, die über Microsoft Clarity erhoben werden, sofern der
-        Nutzer eingewilligt hat, werden für aggregierte und anonyme Analysen zur
-        Nutzung der App verwendet. Ziel ist es, das Verhalten der Nutzer in der
-        Oberfläche besser zu verstehen (welche Ansichten besucht werden,
-        welche Schaltflächen gedrückt werden, wo Schwierigkeiten auftreten), um
-        das Design und die Benutzerfreundlichkeit von GymBroTools zu verbessern.
-        Diese Analysen helfen dem Entwickler, fundierte Entscheidungen über die
-        Weiterentwicklung der App zu treffen – stets im Interesse der Nutzer.
-      </p>
+      
       <p>
         <strong>Support‑Kommunikation:</strong> Kontaktdaten (z. B. die bei der
         Registrierung angegebene E‑Mail) können für strikt
@@ -179,17 +153,7 @@ export default function PrivacyDe() {
         (siehe Abschnitt Rechte), wobei zu berücksichtigen ist, dass Telemetrie
         grundlegend ist, um Fehlfunktionen zu verhindern und Daten zu schützen.
       </p>
-      <p>
-        <strong>Ausdrückliche Einwilligung:</strong> Die Verarbeitung über
-        Microsoft Clarity (Session Replay) erfolgt nur, wenn der Nutzer eine
-        freie, spezifische und informierte Einwilligung erteilt (Art. 6 Abs. 1
-        lit. a DSGVO). Beim ersten Start wird der Nutzer gefragt, ob er diese
-        optionale Funktion aktivieren möchte. Ohne Einwilligung bleibt Clarity
-        deaktiviert und es erfolgt keine Aufzeichnung. Die Einwilligung kann
-        jederzeit in den App‑Einstellungen widerrufen werden; ab diesem Zeitpunkt
-        werden über Clarity keine neuen Daten mehr erhoben. Der Widerruf berührt
-        nicht die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung.
-      </p>
+      
       <p>
         Zusätzlich kann GymBroTools personenbezogene Daten verarbeiten, um
         gesetzlichen Pflichten nachzukommen (Art. 6 Abs. 1 lit. c DSGVO) oder um
@@ -245,19 +209,7 @@ export default function PrivacyDe() {
         nicht möglich; die Löschung erfolgt gemäß den Aufbewahrungsrichtlinien
         von Microsoft Azure Application Insights.
       </p>
-      <p>
-        <strong>Session‑Replay‑Daten (Microsoft Clarity):</strong> Über Clarity
-        erhobene Daten (sofern Einwilligung erteilt wurde) werden gemäß den
-        Richtlinien von Microsoft Clarity für begrenzte Zeiträume aufbewahrt.
-        Detaillierte Sitzungsaufzeichnungen (z. B. Bildschirmwiedergaben) werden
-        in der Regel bis zu 30 Tage gespeichert. Aggregierte und anonyme
-        Auswertungen aus diesen Sitzungen können bis zu 13 Monate vorgehalten
-        werden, um jährliche Trendanalysen zu ermöglichen. Danach werden auch
-        diese Daten automatisch durch die Systeme von Clarity gelöscht. Der
-        GymBroTools‑Entwickler speichert keine lokalen Kopien der
-        Session‑Replay‑Daten; der Zugriff erfolgt über das Clarity‑Konto und
-        unterliegt den Schutz‑ und Aufbewahrungsmaßnahmen von Microsoft.
-      </p>
+      
       <p>
         <strong>Datenübermittlungen ins Ausland:</strong> Die von GymBroTools
         erhobenen personenbezogenen Daten können in Länder außerhalb des
@@ -325,9 +277,7 @@ export default function PrivacyDe() {
         <strong>Widerspruchsrecht:</strong> Recht, aus Gründen, die sich aus der
         besonderen Situation des Nutzers ergeben, der Verarbeitung auf Grundlage
         berechtigten Interesses (z. B. technische Telemetrie über Application
-        Insights) zu widersprechen. In der App kann die optionale Verarbeitung
-        (Clarity) einfach deaktiviert werden, indem die Einwilligung zur
-        Sitzungsaufzeichnung verweigert oder widerrufen wird.
+        Insights) zu widersprechen.
       </p>
       <p>
         <strong>Recht auf Beschwerde:</strong> Wenn Nutzer annehmen, dass die
@@ -391,10 +341,7 @@ export default function PrivacyDe() {
         Daten minimiert und potenziell personenbezogene Informationen anonymisiert
         werden. Application Insights verwendet in der App keine Cookies (es
         handelt sich um eine mobile App) und entfernt automatisch mögliche
-        Verweise auf personenbezogene Identifikatoren in Protokollen. Microsoft
-        Clarity wendet, sofern aktiviert, Maskierungstechniken (z. B. für
-        Texteingabefelder) an, um die Erfassung sensibler Informationen während
-        der Sitzungsaufzeichnung zu vermeiden.
+        Verweise auf personenbezogene Identifikatoren in Protokollen.
       </p>
 
       <h2>8. Verantwortlicher und Kontakt</h2>
@@ -418,4 +365,3 @@ export default function PrivacyDe() {
     </div>
   )
 }
-

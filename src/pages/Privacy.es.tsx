@@ -77,26 +77,7 @@ export default function PrivacyEs() {
         y se configura con un muestreo limitado (en producción) para minimizar
         la cantidad de datos recopilados.
       </p>
-      <p>
-        <strong>
-          Datos analíticos opcionales (reproducción de sesiones con Microsoft
-          Clarity):
-        </strong>{" "}
-        solo con el consentimiento explícito del usuario, la app puede utilizar
-        Microsoft Clarity para recopilar información sobre la interacción del
-        usuario con la app (lo que se denomina «session replay»). Clarity
-        registra de forma anónima sesiones de uso —por ejemplo, toques en la
-        pantalla, navegación entre pantallas y acciones del usuario— con el fin
-        de ayudar al desarrollador a mejorar la interfaz y la experiencia de
-        uso. Por defecto, Clarity está desactivado y no se registra ninguna
-        sesión sin consentimiento: en el primer inicio se pregunta si se desea
-        habilitar esta función opcional. Incluso cuando está habilitado, Clarity
-        no recoge datos personales identificables ni audio o vídeo externos a la
-        app: registra únicamente la interfaz de la app y las interacciones,
-        enmascarando cualquier información potencialmente sensible. El usuario
-        puede activar o desactivar la reproducción de sesiones en cualquier
-        momento desde los ajustes de privacidad de la app.
-      </p>
+      
 
       <h2>3. Finalidad del tratamiento</h2>
       <p>
@@ -121,17 +102,7 @@ export default function PrivacyEs() {
         optimizar la infraestructura y asegurar que la app funcione de forma
         fiable en distintos dispositivos.
       </p>
-      <p>
-        <strong>Análisis de la experiencia del usuario (opcional):</strong> los
-        datos de uso recopilados con Microsoft Clarity, si el usuario lo ha
-        consentido, se emplean para análisis agregados y anónimos sobre cómo se
-        utiliza la app. El objetivo es comprender mejor el comportamiento de los
-        usuarios en la interfaz (qué pantallas se visitan, qué botones se
-        pulsan, posibles puntos de dificultad) para mejorar el diseño y la
-        usabilidad de GymBroTools. Este análisis ayuda al desarrollador a tomar
-        decisiones informadas sobre cómo evolucionar la app, siempre en interés
-        de los usuarios.
-      </p>
+      
       <p>
         <strong>Comunicaciones de soporte:</strong> los datos de contacto (como
         el correo facilitado durante el registro) podrán utilizarse para
@@ -180,18 +151,7 @@ export default function PrivacyEs() {
         (véase la sección Derechos), teniendo en cuenta que la telemetría es
         fundamental para prevenir fallos y proteger los datos.
       </p>
-      <p>
-        <strong>Consentimiento explícito:</strong> el tratamiento a través de
-        Microsoft Clarity (reproducción de sesiones) se realiza únicamente si el
-        usuario presta un consentimiento libre, específico e informado (art.
-        6(1)(a) GDPR). En el primer uso, se pregunta al usuario si desea activar
-        esta función opcional. En ausencia de consentimiento, Clarity permanece
-        desactivado y no se efectúa ninguna grabación. El usuario puede revocar
-        el consentimiento en cualquier momento desactivando la grabación de
-        sesiones en los ajustes de la app; a partir de ese momento, no se
-        recopilarán nuevos datos mediante Clarity. La revocación del
-        consentimiento no afecta a la licitud de los tratamientos ya realizados.
-      </p>
+      
       <p>
         Además de estas bases principales, GymBroTools puede tratar datos
         personales para cumplir eventuales obligaciones legales aplicables (art.
@@ -251,22 +211,7 @@ export default function PrivacyEs() {
         conformidad con las políticas de retención de Microsoft Azure
         Application Insights.
       </p>
-      <p>
-        <strong>Datos de reproducción de sesiones (Microsoft Clarity):</strong>
-        los datos recopilados a través de Clarity (si el usuario ha prestado
-        consentimiento) se conservan durante periodos limitados, según las
-        políticas del servicio Microsoft Clarity. En particular, las grabaciones
-        detalladas de sesiones de usuario (p. ej., reproducciones de pantalla)
-        se conservan por un periodo breve, normalmente hasta 30 días desde su
-        recogida. Los análisis agregados y anónimos derivados de dichas sesiones
-        pueden conservarse durante un periodo mayor, hasta un máximo de 13
-        meses, para permitir el análisis de tendencias anuales. Transcurridos
-        dichos plazos, estos datos también se eliminan automáticamente de los
-        sistemas de Clarity. El desarrollador de GymBroTools no conserva copias
-        locales de los datos de reproducción de sesiones: el acceso se realiza
-        mediante la cuenta de Clarity y está sujeto a las medidas de protección
-        y retención de Microsoft.
-      </p>
+      
       <p>
         <strong>Transferencia de datos al extranjero:</strong> los datos
         personales recogidos por GymBroTools pueden ser transferidos y tratados
@@ -341,9 +286,7 @@ export default function PrivacyEs() {
         <strong>Derecho de oposición:</strong> derecho a oponerse, por motivos
         relacionados con su situación particular, al tratamiento basado en el
         interés legítimo (como la telemetría técnica mediante Application
-        Insights). En la app, el usuario puede desactivar fácilmente el
-        tratamiento opcional (Clarity) simplemente rechazando o revocando el
-        consentimiento para la grabación de sesiones.
+        Insights).
       </p>
       <p>
         <strong>Derecho a presentar una reclamación:</strong> si el usuario
@@ -411,10 +354,7 @@ export default function PrivacyEs() {
         recogidos y anonimizamos cualquier información potencialmente personal.
         Por ejemplo, Application Insights no utiliza cookies en la app (al ser
         una app móvil) y elimina automáticamente posibles referencias a
-        identificadores personales en los registros. Microsoft Clarity, si se
-        activa, aplica técnicas de enmascaramiento (por ejemplo, para posibles
-        campos de entrada de texto) para evitar la recopilación de información
-        sensible durante las grabaciones de sesiones.
+        identificadores personales en los registros.
       </p>
 
       <h2>8. Responsable del tratamiento y contacto</h2>

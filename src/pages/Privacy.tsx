@@ -76,25 +76,7 @@ export default function Privacy() {
         campionamento limitato (in produzione) per ridurre al minimo la quantità
         di dati raccolti.
       </p>
-      <p>
-        <strong>
-          Dati di analisi facoltativi (session replay con Microsoft Clarity):
-        </strong>{" "}
-        solo con il consenso esplicito dell’utente, l’app può utilizzare
-        Microsoft Clarity per raccogliere informazioni sull’interazione
-        dell’utente con l’app (cosiddetto “session replay”). Clarity registra in
-        modo anonimo le sessioni di utilizzo – ad esempio tocchi sullo schermo,
-        navigazione tra schermate e azioni dell’utente – al fine di aiutare lo
-        sviluppatore a capire come migliorare l’interfaccia e l’esperienza
-        utente. Di default Clarity è disattivato e nessuna sessione viene
-        registrata senza consenso: al primo avvio dell’app viene chiesto se
-        abilitare o meno questa funzionalità opzionale. Anche se abilitato,
-        Clarity non raccoglie dati personali identificativi né audio/video
-        esterni all’app: registra solo l’interfaccia dell’app e le interazioni,
-        oscurando eventuali informazioni sensibili. L’utente può attivare o
-        disattivare in qualsiasi momento il session replay dalle impostazioni
-        della privacy nell’app.
-      </p>
+      
 
       <h2>3. Finalità del Trattamento</h2>
       <p>
@@ -119,17 +101,7 @@ export default function Privacy() {
         ottimizzare l’infrastruttura e assicurare che l’app funzioni in modo
         affidabile su diversi dispositivi.
       </p>
-      <p>
-        <strong>Analisi dell’esperienza utente (facoltativo):</strong> i dati di
-        utilizzo raccolti tramite Microsoft Clarity, se l’utente ha
-        acconsentito, vengono impiegati per analisi aggregate e anonime sul modo
-        in cui l’app viene utilizzata. Lo scopo è comprendere meglio il
-        comportamento degli utenti nell’interfaccia (quali schermate vengono
-        visitate, quali pulsanti vengono premuti, eventuali punti di difficoltà)
-        al fine di migliorare il design e l’usabilità di GymBroTools. Questa
-        analisi aiuta lo sviluppatore a prendere decisioni informate su come
-        evolvere l’app, sempre nell’interesse degli utenti.
-      </p>
+      
       <p>
         <strong>Comunicazioni di supporto:</strong> eventualmente, i dati di
         contatto (come l’email fornita in fase di registrazione) potranno essere
@@ -178,18 +150,7 @@ export default function Privacy() {
         (vedi sezione Diritti), tenendo conto che la telemetria è fondamentale
         per prevenire malfunzionamenti e proteggere i dati.
       </p>
-      <p>
-        <strong>Consenso esplicito:</strong> il trattamento dei dati tramite
-        Microsoft Clarity (session replay) avviene solo se l’utente presta un
-        consenso libero, specifico e informato (art. 6(1)(a) GDPR). In fase di
-        primo utilizzo, all’utente viene chiesto se desidera attivare questa
-        funzionalità opzionale. In assenza di consenso, Clarity rimane
-        disabilitato e nessuna registrazione viene effettuata. L’utente può in
-        qualsiasi momento revocare il consenso dato, disattivando la
-        registrazione delle sessioni dalle impostazioni dell’app; da quel
-        momento non verranno più raccolti nuovi dati tramite Clarity. La revoca
-        del consenso non pregiudica la liceità dei trattamenti già effettuati.
-      </p>
+      
       <p>
         Oltre a queste basi principali, GymBroTools può trattare dati personali
         per adempiere eventuali obblighi di legge applicabili (art. 6(1)(c)
@@ -249,21 +210,7 @@ export default function Privacy() {
         conformità alle policy di retention di Microsoft Azure Application
         Insights.
       </p>
-      <p>
-        <strong>Dati di session replay (Microsoft Clarity):</strong> i dati
-        raccolti attraverso Clarity (se l’utente ha acconsentito) sono
-        conservati per periodi limitati, secondo le policy del servizio
-        Microsoft Clarity. In particolare, le registrazioni dettagliate delle
-        sessioni utente (es. riproduzioni delle schermate) vengono conservate
-        per un periodo breve, indicativamente fino a 30 giorni dalla raccolta.
-        Gli analytics aggregati e anonimi derivati da tali sessioni possono
-        essere mantenuti per un periodo più lungo, fino a un massimo di 13 mesi,
-        per consentire analisi di trend su base annuale. Dopo tali termini,
-        anche questi dati vengono automaticamente eliminati dai sistemi di
-        Clarity. Lo sviluppatore di GymBroTools non conserva localmente copie
-        dei dati di session replay: l’accesso avviene tramite l’account Clarity
-        ed è soggetto alle misure di protezione e retention di Microsoft.
-      </p>
+      
       <p>
         <strong>Trasferimento di dati all’estero:</strong> i dati personali
         raccolti da GymBroTools possono essere trasferiti e trattati in Paesi al
@@ -358,9 +305,7 @@ export default function Privacy() {
         raccolta in forma anonima e senza identificatori personali,
         l’opposizione potrà essere esercitata in forma generale (ad es.
         disinstallando l’app o contattandoci per trovare soluzioni tecniche di
-        opt-out). L’utente può invece facilmente disabilitare il trattamento
-        facoltativo (Clarity) semplicemente negando o revocando il consenso per
-        le sessioni registrate.
+        opt-out).
       </p>
       <p>
         <strong>Diritto di reclamo:</strong> qualora l’utente ritenga che il
@@ -426,10 +371,7 @@ export default function Privacy() {
         dati raccolti e anonimizziamo qualunque potenziale informazione
         personale. Ad esempio, Application Insights non utilizza cookie nell’app
         (essendo un’app mobile) e rimuove automaticamente eventuali riferimenti
-        a identificatori personali nei log. Microsoft Clarity, se attivato,
-        applica tecniche di mascheramento (ad esempio per eventuali campi di
-        input testuali) per evitare la raccolta di informazioni sensibili
-        durante le registrazioni delle sessioni.
+        a identificatori personali nei log.
       </p>
 
       <h2>8. Titolare del Trattamento e Contatti</h2>
