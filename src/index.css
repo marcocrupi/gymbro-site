@@ -268,6 +268,76 @@ a:hover {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+/* Store download buttons */
+.cta-store-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.btn-store {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.store-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+/* Google Play - brand gradient (teal to green) */
+.btn-google {
+  background: linear-gradient(135deg, #01875f 0%, #34a853 50%, #4285f4 100%);
+  color: #fff;
+  border: none;
+  box-shadow: 0 8px 20px rgba(1, 135, 95, 0.3);
+}
+
+.btn-google:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(1, 135, 95, 0.4);
+}
+
+/* App Store - Apple brand gradient (blue to purple) */
+.btn-apple {
+  background: linear-gradient(135deg, #007aff 0%, #5856d6 100%);
+  color: #fff;
+  border: none;
+  box-shadow: 0 8px 20px rgba(88, 86, 214, 0.3);
+}
+
+.btn-apple:hover:not(.disabled) {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(88, 86, 214, 0.4);
+}
+
+.btn-apple.disabled {
+  cursor: not-allowed;
+  position: relative;
+}
+
+.btn-apple.disabled::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
 /* Primary and secondary CTAs */
 .cta-primary {
   margin-top: 24px;
@@ -502,6 +572,17 @@ a:hover {
   .cta-primary .btn-primary {
     width: 100%; /* comfortable to tap */
     font-size: clamp(1rem, 3.8vw, 1.1rem);
+    padding: clamp(12px, 3vw, 14px) clamp(18px, 4vw, 22px);
+  }
+  /* Store buttons: stack vertically on mobile */
+  .cta-store-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .btn-store {
+    justify-content: center;
+    width: 100%;
+    font-size: clamp(0.95rem, 3.5vw, 1rem);
     padding: clamp(12px, 3vw, 14px) clamp(18px, 4vw, 22px);
   }
   /* Layout mobile: pulsanti sotto il primario, dimensioni fluide */

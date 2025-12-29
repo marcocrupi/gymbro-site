@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useI18n } from "../i18n/useI18n";
 import { useEffect, useMemo, useState } from "react";
+import googlePlayIcon from "../assets/icons/google-play-icon.png";
+import appleIcon from "../assets/icons/apple-icon.png";
 // Language-specific screenshots: IT uses "screen ita", all others use "screen eng"
 import it001 from "../assets/images/screen ita/screen001.png";
 import it002 from "../assets/images/screen ita/screen002.png";
@@ -32,15 +34,25 @@ export default function Landing() {
         <div className="hero-content">
           <h1 className="hero-title">{t('landing.title')}</h1>
           <p className="hero-subtitle">{t('landing.subtitle')}</p>
-          <div className="cta-primary">
+          <div className="cta-store-buttons">
             <a
               href={PLAY_STORE_URL}
-              className="btn btn-primary"
+              className="btn btn-store btn-google"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t('landing.cta.download')}
+              <img src={googlePlayIcon} alt="" className="store-icon" aria-hidden="true" />
+              <span>{t('landing.cta.googlePlay')}</span>
             </a>
+            <button
+              type="button"
+              className="btn btn-store btn-apple disabled"
+              disabled
+              title={t('landing.cta.comingSoon')}
+            >
+              <img src={appleIcon} alt="" className="store-icon" aria-hidden="true" />
+              <span>{t('landing.cta.appStore')}</span>
+            </button>
           </div>
           <div className="cta-secondary">
             <Link to="/privacy" className="btn btn-ghost">
