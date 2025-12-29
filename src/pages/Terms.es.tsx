@@ -36,15 +36,19 @@ export default function TermsEs() {
       <h2>Requisitos de Edad</h2>
       <p>
         La App está destinada a usuarios de 13 años o más. Al utilizar
-        GymBroTools, usted declara tener al menos 13 años. El Titular no
-        recopila conscientemente datos de, ni presta servicios a, menores de 13
-        años. Si se detecta que un menor de 13 años ha facilitado información
-        personal o está utilizando la App, el Titular podrá adoptar las medidas
-        oportunas, incluida la eliminación de la cuenta asociada. Si usted tiene
-        entre 13 y 18 años (o es menor de edad según la legislación de su país),
-        se recomienda utilizar la App con el consentimiento y la supervisión de
-        un padre, madre o tutor; no obstante, usted declara tener capacidad para
-        aceptar estos Términos.
+        GymBroTools, usted declara tener al menos 13 años y poseer la capacidad
+        de aceptar estos Términos.
+      </p>
+      <p>
+        El Titular no recopila intencionadamente datos de, ni presta servicios
+        a, menores de 13 años. Si se detecta que un menor de 13 años está
+        utilizando la App, el Titular podrá adoptar las medidas oportunas,
+        incluida la eliminación de la cuenta asociada.
+      </p>
+      <p>
+        Los usuarios de entre 13 y 17 años pueden utilizar libremente la App.
+        Se recomienda la supervisión de un padre, madre o tutor para garantizar
+        un uso responsable.
       </p>
 
       <h2>Descripción de la App y funcionalidades</h2>

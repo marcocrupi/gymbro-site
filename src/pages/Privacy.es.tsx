@@ -20,28 +20,31 @@ export default function PrivacyEs() {
         todos los usuarios.
       </p>
       <p>
-        <strong>IMPORTANTE:</strong> la app no está destinada a menores de 13
-        años. En el primer inicio se solicita al usuario indicar su año de
-        nacimiento; si resulta menor de 13 años, se le deniega el acceso a la
-        app y no se recoge ni se trata ningún dato. Solo los usuarios de 13 años
-        o más pueden utilizar GymBroTools y aceptar la presente Política de
-        Privacidad.
-      </p>
-      <p>
-        GymBroTools no recopila intencionadamente datos personales de menores de
-        13 años. Si llegáramos a tener conocimiento de que se han recogido datos
-        de un menor de 13 años sin el consentimiento verificable de sus padres o
-        tutores, procederemos a eliminar dichos datos lo antes posible. Los
-        usuarios o los padres/tutores que consideren que un menor nos ha
-        proporcionado información personal pueden contactarnos en cualquier
-        momento para solicitar su eliminación inmediata.
+        <strong>IMPORTANTE:</strong> la app está destinada a usuarios de 13 años
+        o más. No se permite el uso de la app a menores de 13 años.
       </p>
       <p>
         Esta política se aplica a todos los servicios ofrecidos a través de la
         app GymBroTools.
       </p>
 
-      <h2>2. Tipos de datos recopilados</h2>
+      <h2>2. Menores</h2>
+      <p>
+        <strong>Menores de 13 años:</strong> GymBroTools no está destinada a
+        menores de 13 años y no recopilamos intencionadamente datos personales
+        de niños menores de esa edad. Si un padre o tutor considera que un menor
+        de 13 años ha proporcionado datos personales a través de la app, le
+        invitamos a contactarnos inmediatamente a{" "}
+        <a href="mailto:marcocrupi@hotmail.it">marcocrupi@hotmail.it</a> para
+        solicitar su eliminación.
+      </p>
+      <p>
+        <strong>Usuarios de 13 a 17 años:</strong> los menores de edad (13-17
+        años) pueden utilizar la app. Se recomienda la supervisión de un padre o
+        tutor para garantizar un uso responsable de la aplicación.
+      </p>
+
+      <h2>3. Tipos de datos recopilados</h2>
       <p>
         No recopilamos datos personales identificables salvo lo estrictamente
         necesario para el funcionamiento de la app. En particular, GymBroTools
@@ -79,7 +82,7 @@ export default function PrivacyEs() {
       </p>
       
 
-      <h2>3. Finalidad del tratamiento</h2>
+      <h2>4. Finalidad del tratamiento</h2>
       <p>
         Tratamos los datos recopilados para las siguientes finalidades, de
         conformidad con los principios de licitud y minimización:
@@ -118,7 +121,7 @@ export default function PrivacyEs() {
         límites de las finalidades descritas.
       </p>
 
-      <h2>4. Base jurídica del tratamiento</h2>
+      <h2>5. Base jurídica del tratamiento</h2>
       <p>
         Tratamos los datos personales de los usuarios únicamente cuando existe
         una base jurídica que lo permita conforme a la normativa aplicable
@@ -160,7 +163,7 @@ export default function PrivacyEs() {
         circunstancias no se presentan en el uso ordinario de la app.
       </p>
 
-      <h2>5. Modalidades del tratamiento y plazos de conservación</h2>
+      <h2>6. Modalidades del tratamiento y plazos de conservación</h2>
       <p>
         Tratamos los datos personales de los usuarios principalmente en forma
         electrónica y automatizada, adoptando medidas de seguridad adecuadas
@@ -233,7 +236,7 @@ export default function PrivacyEs() {
         por la ley (véase Derechos de los usuarios).
       </p>
 
-      <h2>6. Derechos de los usuarios</h2>
+      <h2>7. Derechos de los usuarios</h2>
       <p>
         Los usuarios de GymBroTools, en su calidad de interesados, gozan de una
         serie de derechos en materia de protección de datos personales. En
@@ -316,7 +319,7 @@ export default function PrivacyEs() {
         manifiestamente infundadas o excesivas.
       </p>
 
-      <h2>7. Seguridad y protección de los datos</h2>
+      <h2>8. Seguridad y protección de los datos</h2>
       <p>
         La seguridad de los datos de los usuarios es una prioridad. Hemos
         implementado medidas técnicas y organizativas adecuadas para proteger
@@ -357,7 +360,7 @@ export default function PrivacyEs() {
         identificadores personales en los registros.
       </p>
 
-      <h2>8. Responsable del tratamiento y contacto</h2>
+      <h2>9. Responsable del tratamiento y contacto</h2>
       <p>
         El responsable del tratamiento de datos de la app GymBroTools es Marco
         Crupi, desarrollador independiente, contactable en el correo{" "}
@@ -367,7 +370,7 @@ export default function PrivacyEs() {
       </p>
 
       <h2>
-        9. Modificaciones y actualizaciones de esta Política de Privacidad
+        10. Modificaciones y actualizaciones de esta Política de Privacidad
       </h2>
       <p>
         La presente Política de Privacidad puede estar sujeta a cambios y

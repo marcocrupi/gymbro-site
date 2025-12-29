@@ -20,29 +20,33 @@ export default function PrivacyDe() {
         betrieben und ist dem Schutz der Privatsphäre aller Nutzer verpflichtet.
       </p>
       <p>
-        <strong>WICHTIG:</strong> Die App ist nicht für Kinder unter 13 Jahren
-        bestimmt. Beim ersten Start werden Nutzer nach ihrem Geburtsjahr gefragt;
-        wenn sie jünger als 13 Jahre sind, wird der Zugriff auf die App
-        verweigert und es werden keine Daten erhoben oder verarbeitet. Nur
-        Nutzer ab 13 Jahren dürfen GymBroTools verwenden und diese
-        Datenschutzerklärung akzeptieren.
-      </p>
-      <p>
-        GymBroTools erfasst wissentlich keine personenbezogenen Daten von
-        Kindern unter 13 Jahren. Sollten wir Kenntnis davon erlangen, dass Daten
-        eines Kindes unter 13 Jahren ohne überprüfbare Zustimmung der Eltern bzw.
-        Erziehungsberechtigten erhoben wurden, werden wir diese Daten so schnell
-        wie möglich löschen. Nutzer oder Eltern/Erziehungsberechtigte, die
-        glauben, dass uns ein Minderjähriger personenbezogene Informationen
-        übermittelt hat, können uns jederzeit kontaktieren, um deren umgehende
-        Löschung zu verlangen.
+        <strong>WICHTIG:</strong> Die App ist für Nutzer ab 13 Jahren bestimmt.
+        Die Nutzung der App durch Kinder unter 13 Jahren ist nicht gestattet.
       </p>
       <p>
         Diese Erklärung gilt für alle über die GymBroTools‑App angebotenen
         Dienste.
       </p>
 
-      <h2>2. Arten der erhobenen Daten</h2>
+      <h2>2. Minderjährige</h2>
+      <p>
+        <strong>Kinder unter 13 Jahren:</strong> GymBroTools ist nicht für
+        Kinder unter 13 Jahren bestimmt und wir erheben nicht absichtlich
+        personenbezogene Daten von Kindern unter diesem Alter. Wenn ein
+        Elternteil oder Erziehungsberechtigter der Meinung ist, dass ein Kind
+        unter 13 Jahren personenbezogene Daten über die App übermittelt hat,
+        bitten wir Sie, uns umgehend unter{" "}
+        <a href="mailto:marcocrupi@hotmail.it">marcocrupi@hotmail.it</a> zu
+        kontaktieren, um deren Löschung zu beantragen.
+      </p>
+      <p>
+        <strong>Nutzer von 13 bis 17 Jahren:</strong> Minderjährige (13-17 Jahre)
+        dürfen die App nutzen. Es wird empfohlen, dass Eltern oder
+        Erziehungsberechtigte die Nutzung beaufsichtigen, um eine
+        verantwortungsvolle Verwendung der Anwendung zu gewährleisten.
+      </p>
+
+      <h2>3. Arten der erhobenen Daten</h2>
       <p>
         Wir erheben keine personenbezogenen Daten, die eine Identifizierung
         ermöglichen, außer soweit dies für den Betrieb der App unbedingt
@@ -80,7 +84,7 @@ export default function PrivacyDe() {
       </p>
       
 
-      <h2>3. Zwecke der Verarbeitung</h2>
+      <h2>4. Zwecke der Verarbeitung</h2>
       <p>
         Wir verarbeiten die erhobenen Daten zu folgenden Zwecken, im Einklang
         mit den Grundsätzen der Rechtmäßigkeit und Datenminimierung:
@@ -120,7 +124,7 @@ export default function PrivacyDe() {
         beschränkt sich auf die oben beschriebenen Zwecke.
       </p>
 
-      <h2>4. Rechtsgrundlagen der Verarbeitung</h2>
+      <h2>5. Rechtsgrundlagen der Verarbeitung</h2>
       <p>
         Wir verarbeiten personenbezogene Daten nur, wenn eine Rechtsgrundlage
         nach geltendem Recht (EU‑Verordnung 2016/679 „DSGVO“ und gleichwertige
@@ -162,7 +166,7 @@ export default function PrivacyDe() {
         Betrieb der App praktisch nicht auftreten.
       </p>
 
-      <h2>5. Verarbeitungsmethoden und Aufbewahrungsdauer</h2>
+      <h2>6. Verarbeitungsmethoden und Aufbewahrungsdauer</h2>
       <p>
         Wir verarbeiten personenbezogene Daten überwiegend in elektronischer und
         automatisierter Form und treffen angemessene Sicherheitsmaßnahmen, um
@@ -228,7 +232,7 @@ export default function PrivacyDe() {
         innerhalb der gesetzlichen Fristen nachkommen (siehe Rechte der Nutzer).
       </p>
 
-      <h2>6. Rechte der Nutzer</h2>
+      <h2>7. Rechte der Nutzer</h2>
       <p>
         Nutzer von GymBroTools haben als betroffene Personen verschiedene Rechte
         im Bereich des Datenschutzes. Insbesondere können sie jederzeit die
@@ -305,7 +309,7 @@ export default function PrivacyDe() {
         nicht offensichtlich unbegründet oder exzessiv sind.
       </p>
 
-      <h2>7. Datensicherheit und Schutz</h2>
+      <h2>8. Datensicherheit und Schutz</h2>
       <p>
         Die Sicherheit der Daten unserer Nutzer hat für uns Priorität. Wir haben
         angemessene technische und organisatorische Maßnahmen implementiert, um
@@ -344,7 +348,7 @@ export default function PrivacyDe() {
         Verweise auf personenbezogene Identifikatoren in Protokollen.
       </p>
 
-      <h2>8. Verantwortlicher und Kontakt</h2>
+      <h2>9. Verantwortlicher und Kontakt</h2>
       <p>
         Verantwortlich für die Datenverarbeitung der GymBroTools‑App ist Marco
         Crupi, unabhängiger Entwickler, erreichbar unter
@@ -352,7 +356,7 @@ export default function PrivacyDe() {
         sämtliche Anfragen zum Thema Datenschutz.
       </p>
 
-      <h2>9. Änderungen und Aktualisierungen dieser Datenschutzerklärung</h2>
+      <h2>10. Änderungen und Aktualisierungen dieser Datenschutzerklärung</h2>
       <p>
         Diese Datenschutzerklärung kann im Laufe der Zeit angepasst und
         aktualisiert werden, etwa aufgrund gesetzlicher Änderungen,
