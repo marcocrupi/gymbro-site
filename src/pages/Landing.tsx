@@ -3,6 +3,7 @@ import { useI18n } from "../i18n/useI18n";
 import { useEffect, useMemo, useState } from "react";
 import googlePlayIcon from "../assets/icons/google-play-icon.png";
 import appleIcon from "../assets/icons/apple-icon.png";
+import telegramIcon from "../assets/icons/telegram-icon.png";
 // Language-specific screenshots: IT uses "screen ita", all others use "screen eng"
 import it001 from "../assets/images/screen ita/screen001.png";
 import it002 from "../assets/images/screen ita/screen002.png";
@@ -18,6 +19,7 @@ import en005 from "../assets/images/screen eng/screen005.png";
 import en006 from "../assets/images/screen eng/screen006.png";
 
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.gymbrotools.app";
+const TELEGRAM_URL = "https://t.me/GymBroTools";
 
 export default function Landing() {
   const { t, lang } = useI18n()
@@ -55,6 +57,15 @@ export default function Landing() {
             </button>
           </div>
           <div className="cta-secondary">
+            <a
+              href={TELEGRAM_URL}
+              className="btn btn-ghost btn-telegram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={telegramIcon} alt="" className="btn-icon" aria-hidden="true" />
+              {t('landing.link.telegram')}
+            </a>
             <Link to="/privacy" className="btn btn-ghost">
               {t('landing.link.privacy')}
             </Link>
@@ -106,12 +117,23 @@ export default function Landing() {
           </div>
         </div>
         <div className="cta-secondary-mobile">
-          <Link to="/privacy" className="btn btn-ghost">
-            {t('landing.link.privacy')}
-          </Link>
-          <Link to="/terms" className="btn btn-ghost">
-            {t('landing.link.terms')}
-          </Link>
+          <a
+            href={TELEGRAM_URL}
+            className="btn btn-ghost btn-telegram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={telegramIcon} alt="" className="btn-icon" aria-hidden="true" />
+            {t('landing.link.telegram')}
+          </a>
+          <div className="cta-secondary-mobile-row">
+            <Link to="/privacy" className="btn btn-ghost">
+              {t('landing.link.privacy')}
+            </Link>
+            <Link to="/terms" className="btn btn-ghost">
+              {t('landing.link.terms')}
+            </Link>
+          </div>
         </div>
       </section>
 

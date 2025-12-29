@@ -121,6 +121,19 @@ a:hover {
   background: rgba(255, 255, 255, 0.02);
 }
 
+/* Button with icon */
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  margin-right: 6px;
+}
+
+.btn-telegram {
+  display: inline-flex;
+  align-items: center;
+}
+
 /* Language selector */
 .lang-switcher {
   position: relative;
@@ -308,6 +321,7 @@ a:hover {
   filter: brightness(1.08);
   transform: translateY(-1px);
   box-shadow: 0 10px 24px rgba(1, 135, 95, 0.4);
+  color: #fff;
 }
 
 /* App Store - Apple brand gradient (blue to purple) */
@@ -322,6 +336,7 @@ a:hover {
   filter: brightness(1.08);
   transform: translateY(-1px);
   box-shadow: 0 10px 24px rgba(88, 86, 214, 0.4);
+  color: #fff;
 }
 
 .btn-apple.disabled {
@@ -560,9 +575,15 @@ a:hover {
   }
   .cta-secondary-mobile {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .cta-secondary-mobile-row {
+    display: flex;
     gap: 12px;
     justify-content: center;
-    margin-top: 12px;
   }
   .cta-secondary-mobile .btn-ghost {
     font-size: clamp(0.95rem, 3.2vw, 1rem);
