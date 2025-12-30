@@ -250,6 +250,13 @@ a:hover {
 .footer-nav {
   display: flex;
   gap: 12px;
+  align-items: center;
+}
+
+.footer-separator {
+  color: var(--muted);
+  opacity: 0.5;
+  user-select: none;
 }
 
 /* Hero */
@@ -427,7 +434,8 @@ a:hover {
 }
 
 .device-frame {
-  width: min(360px, 90%);
+  width: fit-content;
+  max-width: min(360px, 90%);
   max-height: 100%;
   border-radius: 30px;
   padding: 14px;
@@ -458,7 +466,8 @@ a:hover {
   z-index: 2;
 }
 .screen-img {
-  width: 100%;
+  width: auto;
+  max-width: 332px;
   height: auto;
   max-height: calc(100dvh - 220px);
   object-fit: contain;

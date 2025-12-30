@@ -26,6 +26,7 @@ const translations: Translations = {
     'footer.link.websitePrivacy': 'Website Privacy & Cookies',
     'footer.link.appPrivacy': 'App Privacy',
     'footer.link.terms': 'Terms & Conditions',
+    'footer.link.contact': 'Contact',
   },
   it: {
     'app.name': 'GymBroTools',
@@ -41,8 +42,9 @@ const translations: Translations = {
     'landing.image.alt': 'Anteprima GymBroTools',
     'header.language': 'Lingua',
     'footer.link.websitePrivacy': 'Privacy & Cookie (sito)',
-    'footer.link.appPrivacy': 'Privacy dell’app',
+    'footer.link.appPrivacy': "Privacy dell'app",
     'footer.link.terms': 'Termini e Condizioni',
+    'footer.link.contact': 'Contatti',
   },
   es: {
     'app.name': 'GymBroTools',
@@ -60,6 +62,7 @@ const translations: Translations = {
     'footer.link.websitePrivacy': 'Privacidad y cookies (sitio)',
     'footer.link.appPrivacy': 'Privacidad de la app',
     'footer.link.terms': 'Términos y Condiciones',
+    'footer.link.contact': 'Contacto',
   },
   fr: {
     'app.name': 'GymBroTools',
@@ -75,8 +78,9 @@ const translations: Translations = {
     'landing.image.alt': 'Aperçu de GymBroTools',
     'header.language': 'Langue',
     'footer.link.websitePrivacy': 'Confidentialité & cookies (site)',
-    'footer.link.appPrivacy': "Confidentialité de l’app",
+    'footer.link.appPrivacy': "Confidentialité de l'app",
     'footer.link.terms': 'Termes et Conditions',
+    'footer.link.contact': 'Contact',
   },
   pt: {
     'app.name': 'GymBroTools',
@@ -94,6 +98,7 @@ const translations: Translations = {
     'footer.link.websitePrivacy': 'Privacidade e cookies (site)',
     'footer.link.appPrivacy': 'Privacidade da app',
     'footer.link.terms': 'Termos e Condições',
+    'footer.link.contact': 'Contacto',
   },
   de: {
     'app.name': 'GymBroTools',
@@ -111,6 +116,7 @@ const translations: Translations = {
     'footer.link.websitePrivacy': 'Datenschutz & Cookies (Website)',
     'footer.link.appPrivacy': 'App-Datenschutz',
     'footer.link.terms': 'Allgemeine Geschäftsbedingungen',
+    'footer.link.contact': 'Kontakt',
   },
 }
 
