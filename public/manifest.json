@@ -1,0 +1,21 @@
+{
+  "name": "GymBroTools",
+  "short_name": "GymBro",
+  "description": "Your complete fitness app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00d4ff",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo512px.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

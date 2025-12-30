@@ -88,6 +88,8 @@ export default function Landing() {
                 className="screen-img"
                 src={screenshots[index]}
                 alt={`${t('landing.image.alt')} ${index + 1}/${screenshots.length}`}
+                loading="lazy"
+                decoding="async"
               />
               <div className="carousel-nav" aria-hidden={false}>
                 <button

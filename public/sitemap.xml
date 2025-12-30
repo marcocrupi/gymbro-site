@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://gymbrotools.com/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://gymbrotools.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gymbrotools.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gymbrotools.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gymbrotools.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gymbrotools.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gymbrotools.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbrotools.com/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Privacy Policy App -->
+  <url>
+    <loc>https://gymbrotools.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://gymbrotools.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gymbrotools.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gymbrotools.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gymbrotools.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gymbrotools.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gymbrotools.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbrotools.com/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Privacy Policy Website -->
+  <url>
+    <loc>https://gymbrotools.com/privacy-website</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://gymbrotools.com/privacy-website"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gymbrotools.com/privacy-website"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gymbrotools.com/privacy-website"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gymbrotools.com/privacy-website"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gymbrotools.com/privacy-website"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gymbrotools.com/privacy-website"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbrotools.com/privacy-website"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://gymbrotools.com/terms</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://gymbrotools.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gymbrotools.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gymbrotools.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gymbrotools.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gymbrotools.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gymbrotools.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbrotools.com/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
