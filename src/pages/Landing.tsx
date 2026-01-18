@@ -11,20 +11,23 @@ import it003 from "../assets/images/screen ita/screen003.png";
 import it004 from "../assets/images/screen ita/screen004.png";
 import it005 from "../assets/images/screen ita/screen005.png";
 import it006 from "../assets/images/screen ita/screen006.png";
+import it007 from "../assets/images/screen ita/screen007.png";
 import en001 from "../assets/images/screen eng/screen001.png";
 import en002 from "../assets/images/screen eng/screen002.png";
 import en003 from "../assets/images/screen eng/screen003.png";
 import en004 from "../assets/images/screen eng/screen004.png";
 import en005 from "../assets/images/screen eng/screen005.png";
 import en006 from "../assets/images/screen eng/screen006.png";
+import en007 from "../assets/images/screen eng/screen007.png";
 
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.gymbrotools.app";
+const APP_STORE_URL = "https://apps.apple.com/app/gymbrotools/id6757145715";
 const TELEGRAM_URL = "https://t.me/GymBroTools";
 
 export default function Landing() {
   const { t, lang } = useI18n()
-  const screenshotsIt = useMemo(() => [it001, it002, it003, it004, it005, it006], [])
-  const screenshotsEn = useMemo(() => [en001, en002, en003, en004, en005, en006], [])
+  const screenshotsIt = useMemo(() => [it001, it002, it003, it004, it005, it006, it007], [])
+  const screenshotsEn = useMemo(() => [en001, en002, en003, en004, en005, en006, en007], [])
   const screenshots = useMemo(() => (lang === 'it' ? screenshotsIt : screenshotsEn), [lang, screenshotsIt, screenshotsEn])
   const [index, setIndex] = useState(0)
   useEffect(() => { setIndex(0) }, [lang])
@@ -46,15 +49,15 @@ export default function Landing() {
               <img src={googlePlayIcon} alt="" className="store-icon" aria-hidden="true" />
               <span>{t('landing.cta.googlePlay')}</span>
             </a>
-            <button
-              type="button"
-              className="btn btn-store btn-apple disabled"
-              disabled
-              title={t('landing.cta.comingSoon')}
+            <a
+              href={APP_STORE_URL}
+              className="btn btn-store btn-apple"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img src={appleIcon} alt="" className="store-icon" aria-hidden="true" />
               <span>{t('landing.cta.appStore')}</span>
-            </button>
+            </a>
           </div>
           <div className="cta-secondary">
             <a
