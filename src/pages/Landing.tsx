@@ -21,7 +21,9 @@ import en006 from "../assets/images/screen eng/screen006.png";
 import en007 from "../assets/images/screen eng/screen007.png";
 
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.gymbrotools.app";
-const TELEGRAM_URL = "https://t.me/GymBroTools";
+
+const getTelegramUrl = (lang: string) =>
+  lang === 'it' ? 'https://t.me/GymBroToolsItalia' : 'https://t.me/GymBroTools';
 
 const APP_STORE_COUNTRY_CODES: Record<string, string> = {
   it: 'it',
@@ -72,7 +74,7 @@ export default function Landing() {
           </div>
           <div className="cta-secondary">
             <a
-              href={TELEGRAM_URL}
+              href={getTelegramUrl(lang)}
               className="btn btn-ghost btn-telegram"
               target="_blank"
               rel="noopener noreferrer"
@@ -134,7 +136,7 @@ export default function Landing() {
         </div>
         <div className="cta-secondary-mobile">
           <a
-            href={TELEGRAM_URL}
+            href={getTelegramUrl(lang)}
             className="btn btn-ghost btn-telegram"
             target="_blank"
             rel="noopener noreferrer"
