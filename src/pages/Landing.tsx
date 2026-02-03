@@ -21,8 +21,19 @@ import en006 from "../assets/images/screen eng/screen006.png";
 import en007 from "../assets/images/screen eng/screen007.png";
 
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.gymbrotools.app";
-const APP_STORE_URL = "https://apps.apple.com/app/gymbrotools/id6757145715";
 const TELEGRAM_URL = "https://t.me/GymBroTools";
+
+const APP_STORE_COUNTRY_CODES: Record<string, string> = {
+  it: 'it',
+  en: 'us',
+  es: 'es',
+  fr: 'fr',
+  pt: 'pt',
+  de: 'de',
+};
+
+const getAppStoreUrl = (lang: string) =>
+  `https://apps.apple.com/${APP_STORE_COUNTRY_CODES[lang] || 'us'}/app/gymbrotools/id6757145715`;
 
 export default function Landing() {
   const { t, lang } = useI18n()
@@ -50,7 +61,7 @@ export default function Landing() {
               <span>{t('landing.cta.googlePlay')}</span>
             </a>
             <a
-              href={APP_STORE_URL}
+              href={getAppStoreUrl(lang)}
               className="btn btn-store btn-apple"
               target="_blank"
               rel="noopener noreferrer"
