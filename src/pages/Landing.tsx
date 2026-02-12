@@ -12,6 +12,7 @@ import it004 from "../assets/images/screen ita/screen004.png";
 import it005 from "../assets/images/screen ita/screen005.png";
 import it006 from "../assets/images/screen ita/screen006.png";
 import it007 from "../assets/images/screen ita/screen007.png";
+import it008 from "../assets/images/screen ita/screen008.png";
 import en001 from "../assets/images/screen eng/screen001.png";
 import en002 from "../assets/images/screen eng/screen002.png";
 import en003 from "../assets/images/screen eng/screen003.png";
@@ -19,6 +20,7 @@ import en004 from "../assets/images/screen eng/screen004.png";
 import en005 from "../assets/images/screen eng/screen005.png";
 import en006 from "../assets/images/screen eng/screen006.png";
 import en007 from "../assets/images/screen eng/screen007.png";
+import en008 from "../assets/images/screen eng/screen008.png";
 
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.gymbrotools.app";
 
@@ -39,8 +41,8 @@ const getAppStoreUrl = (lang: string) =>
 
 export default function Landing() {
   const { t, lang } = useI18n()
-  const screenshotsIt = useMemo(() => [it001, it002, it003, it004, it005, it006, it007], [])
-  const screenshotsEn = useMemo(() => [en001, en002, en003, en004, en005, en006, en007], [])
+  const screenshotsIt = useMemo(() => [it001, it002, it003, it004, it005, it006, it007, it008], [])
+  const screenshotsEn = useMemo(() => [en001, en002, en003, en004, en005, en006, en007, en008], [])
   const screenshots = useMemo(() => (lang === 'it' ? screenshotsIt : screenshotsEn), [lang, screenshotsIt, screenshotsEn])
   const [index, setIndex] = useState(0)
   useEffect(() => { setIndex(0) }, [lang])
