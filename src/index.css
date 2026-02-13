@@ -628,8 +628,8 @@ a:hover {
   .btn-store {
     justify-content: center;
     width: 100%;
-    font-size: clamp(0.95rem, 3.5vw, 1rem);
-    padding: clamp(12px, 3vw, 14px) clamp(18px, 4vw, 22px);
+    font-size: clamp(1.05rem, 4vw, 1.15rem);
+    padding: clamp(14px, 3.5vw, 16px) clamp(22px, 5vw, 28px);
   }
   /* Layout mobile: pulsanti sotto il primario, dimensioni fluide */
   .cta-buttons {
