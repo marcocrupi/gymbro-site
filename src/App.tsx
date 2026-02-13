@@ -22,7 +22,7 @@ import './index.css'
 import logo from './assets/images/logo.png'
 import { useI18n } from './i18n/useI18n'
 import Footer from './components/Footer'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { applySeo } from './seo'
 
 const ACADEMY_URL = "https://blog.gymbrotools.com/"
@@ -31,16 +31,9 @@ function App() {
   const { lang } = useI18n()
   const location = useLocation()
   const isHome = location.pathname === '/'
-  const [menuOpen, setMenuOpen] = useState(false)
-
   useEffect(() => {
     applySeo(lang)
   }, [lang])
-
-  // Chiudi il menu quando cambia la route
-  useEffect(() => {
-    setMenuOpen(false)
-  }, [location.pathname])
 
   return (
     <div className={"app-root" + (isHome ? " home-bg" : "")}>
@@ -49,8 +42,7 @@ function App() {
           <Link to="/" className="brand" aria-label="GymBroTools Home">
             <img src={logo} alt="GymBroTools" className="brand-logo" />
           </Link>
-          {/* Desktop nav */}
-          <nav className="nav nav-desktop" aria-label="Global">
+          <nav className="nav" aria-label="Global">
             <a
               href={ACADEMY_URL}
               className="nav-link nav-link-academy"
@@ -63,34 +55,7 @@ function App() {
               Academy
             </a>
           </nav>
-          {/* Hamburger button for mobile */}
-          <button
-            className="hamburger-btn"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label={menuOpen ? "Chiudi menu" : "Apri menu"}
-            aria-expanded={menuOpen}
-          >
-            <span className={`hamburger-icon ${menuOpen ? 'open' : ''}`}>
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </button>
         </div>
-        {/* Mobile menu */}
-        <nav className={`nav-mobile ${menuOpen ? 'open' : ''}`} aria-label="Mobile navigation">
-          <a
-            href={ACADEMY_URL}
-            className="nav-mobile-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg className="nav-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
-            </svg>
-            Academy
-          </a>
-        </nav>
       </header>
       <main className={"site-main"}>
         <Routes>

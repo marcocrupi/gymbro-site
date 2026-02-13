@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-inner">
         <div>
-          <span aria-hidden>©</span> {year} GymBroTools by Marco Crupi
+          <span aria-hidden>©</span> 2025–{year} GymBroTools by Marco Crupi
         </div>
         <nav className="footer-nav" aria-label="Footer">
           <a className="nav-link" href="mailto:marcocrupi@hotmail.it">{t('footer.link.contact')}</a>
