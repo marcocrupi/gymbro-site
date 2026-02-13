@@ -32,7 +32,7 @@ const translations: Translations = {
     'app.name': 'GymBroTools',
     'landing.title': 'GymBroTools',
     'landing.subtitle':
-      'La suite per atleti e trainer: piani di allenamento, gestione sessioni, database esercizi con immagini, statistiche dei progressi e strumenti come timer, cronometro e contatore set. Funziona anche offline con sincronizzazione sicura quando sei connesso.',
+      'La suite per atleti e trainer: schede di allenamento, gestione sessioni, database esercizi con immagini, statistiche dei progressi e strumenti come timer, cronometro e contatore set. Funziona anche offline con sincronizzazione sicura quando sei connesso.',
     'landing.cta.googlePlay': 'Scarica su Google Play',
     'landing.cta.appStore': 'Scarica su App Store',
     'landing.cta.comingSoon': 'Presto disponibile',
