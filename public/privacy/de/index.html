@@ -10,27 +10,17 @@
       * { box-sizing: border-box; }
       body { margin: 0; min-width: 320px; background: #0f141a; color: #e6edf3; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; line-height: 1.6; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
       .container { width: min(1100px, 92vw); margin-inline: auto; padding-bottom: 96px; }
-      header { display: flex; align-items: center; gap: 12px; padding: 20px 0; }
-      header a { color: #e6edf3; text-decoration: none; font-weight: 600; }
-      header a:hover { color: #2ea3ff; }
       h1 { font-size: 2rem; margin: 8px 0 0; }
       h2 { margin-top: 28px; font-size: 1.25rem; }
       .muted { color: #9fb0c3; }
-      main { margin-top: 8px; }
-      footer { margin-top: 32px; color: #9fb0c3; font-size: .95rem; }
       a { color: #2ea3ff; text-decoration: none; }
       a:hover { color: #1e8ae6; }
     </style>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <a href="/" aria-label="Zurück zur Startseite">← Startseite</a>
-        <h1>Datenschutzerklärung der GymBroTools App</h1>
-      </header>
-
-      <main>
-        <p class="muted">Letzte Aktualisierung: <time id="updated"></time></p>
+    <div class="container privacy">
+      <h1>Datenschutzerklärung der GymBroTools App</h1>
+      <p class="muted">Letzte Aktualisierung: <time id="updated"></time></p>
 
         <h2>1. Einleitung und Geltungsbereich</h2>
         <p>
@@ -467,14 +457,6 @@
           regelmäßig zu prüfen, um auf dem Laufenden zu bleiben, wie
           personenbezogene Daten verarbeitet werden.
         </p>
-      </main>
-
-      <footer>
-        <p>
-          Dies ist eine statische Kopie der Datenschutzerklärung. Die vollständige und mehrsprachige Version ist
-          auch in der App und auf der Website verfügbar.
-        </p>
-      </footer>
     </div>
 
     <script>
