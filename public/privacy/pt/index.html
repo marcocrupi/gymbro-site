@@ -9,16 +9,53 @@
       :root { color-scheme: dark; }
       * { box-sizing: border-box; }
       body { margin: 0; min-width: 320px; background: #0f141a; color: #e6edf3; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; line-height: 1.6; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-      .container { width: min(1100px, 92vw); margin-inline: auto; padding-bottom: 96px; }
+      a { color: #2ea3ff; text-decoration: none; }
+      a:hover { color: #1e8ae6; }
+      .app-root { min-height: 100vh; display: flex; flex-direction: column; }
+      .container { width: min(1100px, 92vw); margin-inline: auto; }
+      .privacy { padding-bottom: 96px; }
+      .site-header { position: sticky; top: 0; z-index: 50; background: rgba(15,20,26,0.86); backdrop-filter: blur(6px); border-bottom: 1px solid #243244; }
+      .header-inner { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
+      .brand { display: inline-flex; align-items: center; color: #e6edf3; }
+      .brand-logo { height: 36px; width: auto; display: block; }
+      .nav { display: flex; gap: 16px; align-items: center; }
+      .nav-link { color: #e6edf3; display: inline-flex; align-items: center; gap: 8px; font-weight: 700; line-height: 1; padding: 10px 18px; border-radius: 999px; border: 1px solid #2ea3ff; background: transparent; transition: background 0.2s ease, border-color 0.2s ease; }
+      .nav-link:hover { background: rgba(46,163,255,0.12); border-color: #2ea3ff; color: #e6edf3; }
+      .nav-icon { width: 18px; height: 18px; flex-shrink: 0; }
+      .site-main { flex: 1; padding: 0; display: grid; }
       h1 { font-size: 2rem; margin: 8px 0 0; }
       h2 { margin-top: 28px; font-size: 1.25rem; }
       .muted { color: #9fb0c3; }
-      a { color: #2ea3ff; text-decoration: none; }
-      a:hover { color: #1e8ae6; }
+      .site-footer { border-top: 1px solid #243244; background: rgba(13,17,23,0.8); }
+      .footer-inner { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; font-size: 0.95rem; color: #9fb0c3; }
+      .footer-nav { display: flex; gap: 12px; align-items: center; }
+      .footer-nav .nav-link { border: none; padding: 0; font-weight: 500; }
+      .footer-nav .nav-link:hover { background: transparent; color: #2ea3ff; }
+      .footer-separator { color: #9fb0c3; opacity: 0.5; user-select: none; }
+      @media (max-width: 900px) {
+        .container { width: min(1100px, 88vw); }
+        .footer-inner { flex-direction: column; align-items: center; text-align: center; gap: 8px; }
+        .footer-nav { justify-content: center; }
+      }
     </style>
   </head>
   <body>
-    <div class="container privacy">
+    <div class="app-root">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="/" class="brand" aria-label="GymBroTools Home">
+            <img src="/privacy/logo.png" alt="GymBroTools" class="brand-logo" />
+          </a>
+          <nav class="nav" aria-label="Global">
+            <a href="https://blog.gymbrotools.com/" class="nav-link" target="_blank" rel="noopener noreferrer">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+              Academy
+            </a>
+          </nav>
+        </div>
+      </header>
+      <main class="site-main">
+        <div class="container privacy">
       <h1>Política de Privacidade da app GymBroTools</h1>
       <p class="muted">Última atualização: <time id="updated"></time></p>
 
@@ -463,6 +500,18 @@
           esta política para se manterem informados sobre a forma como os dados
           pessoais são tratados.
         </p>
+        </div>
+      </main>
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div><span aria-hidden>©</span> 2025–2026 GymBroTools by Marco Crupi</div>
+          <nav class="footer-nav" aria-label="Footer">
+            <a class="nav-link" href="mailto:marcocrupi@hotmail.it">Contacto</a>
+            <span class="footer-separator" aria-hidden="true">|</span>
+            <a class="nav-link" href="/privacy-website">Privacidade e cookies (site)</a>
+          </nav>
+        </div>
+      </footer>
     </div>
 
     <script>
