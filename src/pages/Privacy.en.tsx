@@ -56,9 +56,11 @@ export default function PrivacyEn() {
         workouts. Information entered remains private, visible only to the user
         and not shared with other users or third parties beyond what is
         described in this policy. Important: GymBroTools does not require or
-        collect any “sensitive” personal or biological data, such as biometric
-        data, health information, photos, GPS location, contacts, or other data
-        not necessary to use the app.
+        collect any “sensitive” personal or biological data such as photos, GPS
+        location, contacts, or other data not necessary to use the app, with
+        the exception of health and fitness data that the user may optionally
+        share through the Apple Health (HealthKit) or Health Connect
+        integration described in Section 4 below.
       </p>
       <p>
         <strong>Technical usage data (telemetry):</strong> the app uses
@@ -77,7 +79,79 @@ export default function PrivacyEn() {
       </p>
       
 
-      <h2>4. Purposes of Processing</h2>
+      <h2>4. Health and Fitness Data</h2>
+      <p>
+        GymBroTools offers an optional integration with Apple Health (HealthKit)
+        on iOS and Health Connect on Android, allowing users to synchronize
+        health and physical activity data between GymBroTools and their
+        device's health platform. This integration is entirely optional and
+        requires the user's explicit consent, granted through the operating
+        system's native permission dialog.
+      </p>
+      <p>
+        <strong>Data we may read from the device's health platform:</strong>
+        {" "}body weight, height, body fat percentage, and lean body mass. This
+        data may originate from other devices or apps (e.g., smart scales)
+        connected to the health platform.
+      </p>
+      <p>
+        <strong>Data we may write to the device's health platform:</strong>
+        {" "}body weight, height, body fat percentage, lean body mass, BMI
+        (Body Mass Index), BMR (Basal Metabolic Rate), and waist circumference;
+        workout sessions including exercise type, duration, calories burned,
+        distance, and heart rate where available.
+      </p>
+      <p>
+        <strong>Purposes of health data processing:</strong> health data is
+        used exclusively to (a) import body measurements from external devices
+        (e.g., smart scales) to consolidate them in the user's fitness profile
+        within GymBroTools; (b) export workouts and body measurements recorded
+        in the app to the device's health platform so they are available to the
+        user in a centralized location; and (c) calculate derived metrics such
+        as BMI, FFMI (Fat‑Free Mass Index), and waist‑to‑height ratio.
+      </p>
+      <p>
+        <strong>Legal basis (GDPR Art. 9):</strong> health data constitutes a
+        "special category" of personal data under Art. 9 of the GDPR. The legal
+        basis for processing this data is the user's explicit consent
+        (Art. 9(2)(a) GDPR), obtained through the operating system's native
+        permission dialog (Apple Health permission screen on iOS; Health Connect
+        permission screen on Android). Permissions are granular: the user may
+        authorize or deny access to each individual data type independently.
+        Only the minimum data types necessary to provide the fitness
+        integration features are requested, in accordance with the principle
+        of data minimization.
+      </p>
+      <p>
+        <strong>Storage and sharing:</strong> health data synchronized via
+        Apple Health or Health Connect is transmitted to GymBroTools servers as
+        part of the user's body measurements, protected by authentication and
+        encryption in transit (HTTPS). Health data is <strong>not</strong> sold
+        to third parties, shared with third parties for advertising or
+        marketing purposes, used for profiling, or used for any purpose other
+        than the app functionalities described above.
+      </p>
+      <p>
+        <strong>User control:</strong> health data synchronization is disabled
+        by default. The user may enable or disable it at any time from the
+        app's Settings. On iOS, Apple Health permissions can be managed from
+        Settings &gt; Health &gt; Data Access &amp; Devices. On Android, the
+        user can revoke Health Connect permissions directly from the device
+        settings (Settings &gt; Health Connect &gt; App permissions). Upon
+        revocation, GymBroTools will no longer read or write health data.
+        Deletion of the user's account entails the removal of all data from
+        GymBroTools servers; data previously written to Apple Health or Health
+        Connect remains under the user's control on their own device.
+      </p>
+      <p>
+        <strong>Platform compliance:</strong> GymBroTools complies with Apple's
+        HealthKit usage guidelines and Google's Health Connect developer
+        policies. Health data is processed in accordance with the GDPR,
+        applicable health data protection laws, and the platform‑specific
+        requirements for apps that access health data.
+      </p>
+
+      <h2>5. Purposes of Processing</h2>
       <p>
         We process the collected data for the following purposes, in line with
         the principles of lawfulness and data minimization:
@@ -113,7 +187,7 @@ export default function PrivacyEn() {
         above.
       </p>
 
-      <h2>5. Legal Basis for Processing</h2>
+      <h2>6. Legal Basis for Processing</h2>
       <p>
         We process users’ personal data only when there is a legal basis under
         applicable law (EU Regulation 2016/679 “GDPR” and equivalent laws in
@@ -152,7 +226,7 @@ export default function PrivacyEn() {
         use.
       </p>
 
-      <h2>6. Processing Methods and Data Retention</h2>
+      <h2>7. Processing Methods and Data Retention</h2>
       <p>
         We process users’ personal data primarily in electronic and automated
         form, adopting appropriate security measures to prevent unauthorized
@@ -215,7 +289,7 @@ export default function PrivacyEn() {
         law (see Users’ Rights).
       </p>
 
-      <h2>7. Users' Rights</h2>
+      <h2>8. Users' Rights</h2>
       <p>
         GymBroTools users, as data subjects, enjoy a number of rights regarding
         personal data protection. In particular, users may at any time exercise
@@ -289,7 +363,7 @@ export default function PrivacyEn() {
         user, unless requests are manifestly unfounded or excessive.
       </p>
 
-      <h2>8. Data Security and Protection</h2>
+      <h2>9. Data Security and Protection</h2>
       <p>
         The security of our users’ data is a priority. We have implemented
         appropriate technical and organizational measures to protect personal
@@ -326,7 +400,7 @@ export default function PrivacyEn() {
         logs.
       </p>
 
-      <h2>9. Data Controller and Contact</h2>
+      <h2>10. Data Controller and Contact</h2>
       <p>
         The data controller for the GymBroTools app is Marco Crupi, an
         independent developer, who can be contacted at{" "}
@@ -334,7 +408,7 @@ export default function PrivacyEn() {
         requests regarding privacy and personal data protection.
       </p>
 
-      <h2>10. Changes and Updates to this Privacy Policy</h2>
+      <h2>11. Changes and Updates to this Privacy Policy</h2>
       <p>
         This Privacy Policy may be subject to changes and updates over time,
         including due to regulatory changes, technological developments, or
