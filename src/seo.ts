@@ -58,6 +58,8 @@ export function applySeo(lang: Lang) {
 
   const seo = SEO_BY_LANG[lang] ?? SEO_BY_LANG.it
   const ogLocale = OG_LOCALE_BY_LANG[lang] ?? 'en_US'
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://gymbrotools.com'
+  const logoAbs = origin + '/logo512px.png'
 
   document.title = seo.title
 
@@ -89,12 +91,33 @@ export function applySeo(lang: Lang) {
   })
   ogLocaleMeta.setAttribute('content', ogLocale)
 
+  const ogUrl = upsertMeta('meta[property="og:url"]', () => {
+    const m = document.createElement('meta')
+    m.setAttribute('property', 'og:url')
+    return m
+  })
+  ogUrl.setAttribute('content', origin + '/')
+
   const ogImage = upsertMeta('meta[property="og:image"]', () => {
     const m = document.createElement('meta')
     m.setAttribute('property', 'og:image')
     return m
   })
-  ogImage.setAttribute('content', '/logo512px.png')
+  ogImage.setAttribute('content', logoAbs)
+
+  const ogImageWidth = upsertMeta('meta[property="og:image:width"]', () => {
+    const m = document.createElement('meta')
+    m.setAttribute('property', 'og:image:width')
+    return m
+  })
+  ogImageWidth.setAttribute('content', '512')
+
+  const ogImageHeight = upsertMeta('meta[property="og:image:height"]', () => {
+    const m = document.createElement('meta')
+    m.setAttribute('property', 'og:image:height')
+    return m
+  })
+  ogImageHeight.setAttribute('content', '512')
 
   const twCard = upsertMeta('meta[name="twitter:card"]', () => {
     const m = document.createElement('meta')
@@ -122,24 +145,7 @@ export function applySeo(lang: Lang) {
     m.setAttribute('name', 'twitter:image')
     return m
   })
-  twImage.setAttribute('content', '/logo512px.png')
-
-  // Update JSON-LD Organization logo (if present) to absolute URL for reliability
-  try {
-    const origin = window.location.origin
-    const logoAbs = origin + '/logo512px.png'
-    const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
-    scripts.forEach((s) => {
-      try {
-        const data = JSON.parse(s.textContent || 'null')
-        if (data && typeof data === 'object' && data['@type'] === 'Organization') {
-          data.logo = logoAbs
-          if (!data.url) data.url = origin + '/'
-          s.textContent = JSON.stringify(data)
-        }
-      } catch { /* ignore parse errors */ }
-    })
-  } catch { /* ignore envs without window */ }
+  twImage.setAttribute('content', logoAbs)
 }
 
 export { SEO_BY_LANG }

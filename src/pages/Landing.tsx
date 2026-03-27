@@ -114,7 +114,7 @@ export default function Landing() {
                   type="button"
                   className="carousel-btn"
                   onClick={prev}
-                  aria-label="Schermata precedente"
+                  aria-label={t('landing.carousel.prev')}
                 >
                   {/* Left arrow */}
                   <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
@@ -125,7 +125,7 @@ export default function Landing() {
                   type="button"
                   className="carousel-btn"
                   onClick={next}
-                  aria-label="Schermata successiva"
+                  aria-label={t('landing.carousel.next')}
                 >
                   {/* Right arrow */}
                   <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">

@@ -27,6 +27,10 @@ const translations: Translations = {
     'footer.link.appPrivacy': 'App Privacy',
     'footer.link.terms': 'Terms & Conditions',
     'footer.link.contact': 'Contact',
+    'landing.carousel.prev': 'Previous screenshot',
+    'landing.carousel.next': 'Next screenshot',
+    'notFound.message': 'The page you are looking for does not exist.',
+    'notFound.backHome': 'Back to Home',
   },
   it: {
     'app.name': 'GymBroTools',
@@ -45,6 +49,10 @@ const translations: Translations = {
     'footer.link.appPrivacy': "Privacy dell'app",
     'footer.link.terms': 'Termini e Condizioni',
     'footer.link.contact': 'Contatti',
+    'landing.carousel.prev': 'Schermata precedente',
+    'landing.carousel.next': 'Schermata successiva',
+    'notFound.message': 'La pagina che stai cercando non esiste.',
+    'notFound.backHome': 'Torna alla Home',
   },
   es: {
     'app.name': 'GymBroTools',
@@ -63,6 +71,10 @@ const translations: Translations = {
     'footer.link.appPrivacy': 'Privacidad de la app',
     'footer.link.terms': 'Términos y Condiciones',
     'footer.link.contact': 'Contacto',
+    'landing.carousel.prev': 'Captura anterior',
+    'landing.carousel.next': 'Captura siguiente',
+    'notFound.message': 'La página que buscas no existe.',
+    'notFound.backHome': 'Volver al inicio',
   },
   fr: {
     'app.name': 'GymBroTools',
@@ -81,6 +93,10 @@ const translations: Translations = {
     'footer.link.appPrivacy': "Confidentialité de l'app",
     'footer.link.terms': 'Termes et Conditions',
     'footer.link.contact': 'Contact',
+    'landing.carousel.prev': 'Capture précédente',
+    'landing.carousel.next': 'Capture suivante',
+    'notFound.message': 'La page que vous recherchez n\'existe pas.',
+    'notFound.backHome': "Retour à l'accueil",
   },
   pt: {
     'app.name': 'GymBroTools',
@@ -99,6 +115,10 @@ const translations: Translations = {
     'footer.link.appPrivacy': 'Privacidade da app',
     'footer.link.terms': 'Termos e Condições',
     'footer.link.contact': 'Contacto',
+    'landing.carousel.prev': 'Captura anterior',
+    'landing.carousel.next': 'Próxima captura',
+    'notFound.message': 'A página que procura não existe.',
+    'notFound.backHome': 'Voltar ao início',
   },
   de: {
     'app.name': 'GymBroTools',
@@ -117,6 +137,10 @@ const translations: Translations = {
     'footer.link.appPrivacy': 'App-Datenschutz',
     'footer.link.terms': 'Allgemeine Geschäftsbedingungen',
     'footer.link.contact': 'Kontakt',
+    'landing.carousel.prev': 'Vorheriger Screenshot',
+    'landing.carousel.next': 'Nächster Screenshot',
+    'notFound.message': 'Die Seite, die Sie suchen, existiert nicht.',
+    'notFound.backHome': 'Zurück zur Startseite',
   },
 }
 

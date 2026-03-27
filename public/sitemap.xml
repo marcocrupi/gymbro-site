@@ -5,7 +5,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://gymbrotools.com/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-03-27</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://gymbrotools.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gymbrotools.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gymbrotools.com/"/>
@@ -13,45 +13,6 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://gymbrotools.com/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gymbrotools.com/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbrotools.com/"/>
-  </url>
-
-  <!-- Privacy Policy App -->
-  <url>
-    <loc>https://gymbrotools.com/privacy</loc>
-    <lastmod>2026-02-12</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://gymbrotools.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gymbrotools.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gymbrotools.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gymbrotools.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gymbrotools.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gymbrotools.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbrotools.com/privacy"/>
-  </url>
-
-  <!-- Privacy Policy Website -->
-  <url>
-    <loc>https://gymbrotools.com/privacy-website</loc>
-    <lastmod>2026-02-12</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://gymbrotools.com/privacy-website"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gymbrotools.com/privacy-website"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gymbrotools.com/privacy-website"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gymbrotools.com/privacy-website"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gymbrotools.com/privacy-website"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gymbrotools.com/privacy-website"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbrotools.com/privacy-website"/>
-  </url>
-
-  <!-- Terms & Conditions -->
-  <url>
-    <loc>https://gymbrotools.com/terms</loc>
-    <lastmod>2026-02-12</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://gymbrotools.com/terms"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gymbrotools.com/terms"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gymbrotools.com/terms"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gymbrotools.com/terms"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gymbrotools.com/terms"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gymbrotools.com/terms"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbrotools.com/terms"/>
   </url>
 
 </urlset>

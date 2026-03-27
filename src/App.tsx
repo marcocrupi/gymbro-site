@@ -1,5 +1,6 @@
 import { Link, Route, Routes, useLocation } from 'react-router-dom'
 import Landing from './pages/Landing'
+import NotFound from './pages/NotFound'
 import Privacy from './pages/Privacy'
 import PrivacyEn from './pages/Privacy.en'
 import PrivacyEs from './pages/Privacy.es'
@@ -93,6 +94,7 @@ function App() {
               : <Terms />
             }
           />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
