@@ -82,9 +82,11 @@
           Informationen bleiben privat, sind nur für den Nutzer selbst sichtbar
           und werden nicht mit anderen Nutzern oder Dritten geteilt, außer wie in
           dieser Erklärung beschrieben. Wichtig: GymBroTools verlangt oder erfasst
-          keine „sensiblen" personenbezogenen oder biologischen Daten, wie
-          biometrische Daten, Gesundheitsdaten, Fotos, GPS‑Standort, Kontakte oder
-          andere für die Nutzung der App nicht erforderliche Informationen.
+          keine „sensiblen" personenbezogenen oder biologischen Daten wie Fotos,
+          GPS‑Standort, Kontakte oder andere für die Nutzung der App nicht
+          erforderliche Informationen, mit Ausnahme der Gesundheits‑ und
+          Fitnessdaten, die der Nutzer optional über die Integration mit Apple
+          Health (HealthKit) oder Health Connect gemäß Abschnitt 4 teilen kann.
         </p>
         <p>
           <strong>Technische Nutzungsdaten (Telemetrie):</strong> Die App nutzt
@@ -103,7 +105,88 @@
           Sampling konfiguriert, um die erhobene Datenmenge zu minimieren.
         </p>
 
-        <h2>4. Zwecke der Verarbeitung</h2>
+        <h2>4. Gesundheits‑ und Fitnessdaten</h2>
+        <p>
+          GymBroTools bietet eine optionale Integration mit Apple Health
+          (HealthKit) unter iOS und Health Connect unter Android, mit der Nutzer
+          Gesundheits‑ und Fitnessdaten zwischen GymBroTools und der
+          Gesundheitsplattform ihres Geräts synchronisieren können. Diese
+          Integration ist vollständig freiwillig und erfordert die ausdrückliche
+          Einwilligung des Nutzers, die über den nativen
+          Berechtigungsdialog des Betriebssystems erteilt wird.
+        </p>
+        <p>
+          <strong>Daten, die wir von der Gesundheitsplattform des Geräts lesen können:</strong>
+          Körpergewicht, Körpergröße, Körperfettanteil und fettfreie Masse.
+          Diese Daten können von anderen Geräten oder Apps stammen (z. B.
+          smarten Waagen), die mit der Gesundheitsplattform verbunden sind.
+        </p>
+        <p>
+          <strong>Daten, die wir auf die Gesundheitsplattform des Geräts schreiben können:</strong>
+          Körpergewicht, Körpergröße, Körperfettanteil, fettfreie Masse, BMI
+          (Body‑Mass‑Index), Grundumsatz (BMR) und Taillenumfang;
+          Trainingseinheiten einschließlich Übungstyp, Dauer, verbrannter
+          Kalorien, Distanz und Herzfrequenz, sofern verfügbar.
+        </p>
+        <p>
+          <strong>Zwecke der Verarbeitung von Gesundheitsdaten:</strong>
+          Gesundheitsdaten werden ausschließlich verwendet, um (a) Körpermaße
+          von externen Geräten (z. B. smarten Waagen) zu importieren und im
+          Fitnessprofil des Nutzers innerhalb von GymBroTools zusammenzuführen;
+          (b) in der App erfasste Trainings und Körpermaße an die
+          Gesundheitsplattform des Geräts zu exportieren, damit sie dem Nutzer
+          an zentraler Stelle zur Verfügung stehen; und (c) abgeleitete Metriken
+          wie BMI, FFMI (Fettfreie‑Masse‑Index) und Taille‑Größe‑Verhältnis zu
+          berechnen.
+        </p>
+        <p>
+          <strong>Rechtsgrundlage (Art. 9 DSGVO):</strong> Gesundheitsdaten
+          stellen eine „besondere Kategorie" personenbezogener Daten gemäß
+          Art. 9 DSGVO dar. Die Rechtsgrundlage für deren Verarbeitung ist die
+          ausdrückliche Einwilligung des Nutzers (Art. 9 Abs. 2 lit. a DSGVO),
+          die über den nativen Berechtigungsdialog des Betriebssystems eingeholt
+          wird (Apple‑Health‑Berechtigungsbildschirm unter iOS;
+          Health‑Connect‑Berechtigungsbildschirm unter Android). Die
+          Berechtigungen sind granular: Der Nutzer kann den Zugriff auf jeden
+          einzelnen Datentyp unabhängig gestatten oder verweigern. Es werden nur
+          die Datentypen angefordert, die zur Bereitstellung der
+          Fitness‑Integrationsfunktionen unbedingt erforderlich sind –
+          entsprechend dem Grundsatz der Datenminimierung.
+        </p>
+        <p>
+          <strong>Speicherung und Weitergabe:</strong> Über Apple Health oder
+          Health Connect synchronisierte Gesundheitsdaten werden als Teil der
+          Körpermaße des Nutzers an die Server von GymBroTools übertragen,
+          geschützt durch Authentifizierung und Verschlüsselung bei der
+          Übertragung (HTTPS). Gesundheitsdaten werden <strong>nicht</strong> an
+          Dritte verkauft, nicht für Werbe‑ oder Marketingzwecke an Dritte
+          weitergegeben, nicht für Profiling verwendet und nicht für andere
+          Zwecke als die oben beschriebenen App‑Funktionen eingesetzt.
+        </p>
+        <p>
+          <strong>Kontrolle durch den Nutzer:</strong> Die Synchronisation von
+          Gesundheitsdaten ist standardmäßig deaktiviert. Der Nutzer kann sie
+          jederzeit in den Einstellungen der App aktivieren oder deaktivieren.
+          Unter iOS können die Apple‑Health‑Berechtigungen über Einstellungen
+          &gt; Gesundheit &gt; Datenzugriff &amp; Geräte verwaltet werden. Unter
+          Android kann der Nutzer die Health‑Connect‑Berechtigungen direkt in
+          den Geräteeinstellungen widerrufen (Einstellungen &gt; Health Connect
+          &gt; App‑Berechtigungen). Nach dem Widerruf liest oder schreibt
+          GymBroTools keine Gesundheitsdaten mehr. Die Kontolöschung hat die
+          Entfernung sämtlicher Daten von den GymBroTools‑Servern zur Folge;
+          Daten, die bereits in Apple Health oder Health Connect geschrieben
+          wurden, verbleiben unter der Kontrolle des Nutzers auf seinem Gerät.
+        </p>
+        <p>
+          <strong>Plattformkonformität:</strong> GymBroTools hält die
+          Apple‑Richtlinien zur Nutzung von HealthKit und die Google‑Richtlinien
+          für Health‑Connect‑Entwickler ein. Gesundheitsdaten werden im Einklang
+          mit der DSGVO, den geltenden Gesetzen zum Schutz von
+          Gesundheitsdaten und den plattformspezifischen Anforderungen für Apps,
+          die auf Gesundheitsdaten zugreifen, verarbeitet.
+        </p>
+
+        <h2>5. Zwecke der Verarbeitung</h2>
         <p>
           Wir verarbeiten die erhobenen Daten zu folgenden Zwecken, im Einklang
           mit den Grundsätzen der Rechtmäßigkeit und Datenminimierung:
@@ -142,7 +225,7 @@
           beschränkt sich auf die oben beschriebenen Zwecke.
         </p>
 
-        <h2>5. Rechtsgrundlagen der Verarbeitung</h2>
+        <h2>6. Rechtsgrundlagen der Verarbeitung</h2>
         <p>
           Wir verarbeiten personenbezogene Daten nur, wenn eine Rechtsgrundlage
           nach geltendem Recht (EU‑Verordnung 2016/679 „DSGVO" und gleichwertige
@@ -183,7 +266,7 @@
           Betrieb der App praktisch nicht auftreten.
         </p>
 
-        <h2>6. Verarbeitungsmethoden und Aufbewahrungsdauer</h2>
+        <h2>7. Verarbeitungsmethoden und Aufbewahrungsdauer</h2>
         <p>
           Wir verarbeiten personenbezogene Daten überwiegend in elektronischer und
           automatisierter Form und treffen angemessene Sicherheitsmaßnahmen, um
@@ -248,7 +331,7 @@
           innerhalb der gesetzlichen Fristen nachkommen (siehe Rechte der Nutzer).
         </p>
 
-        <h2>7. Rechte der Nutzer</h2>
+        <h2>8. Rechte der Nutzer</h2>
         <p>
           Nutzer von GymBroTools haben als betroffene Personen verschiedene Rechte
           im Bereich des Datenschutzes. Insbesondere können sie jederzeit die
@@ -325,7 +408,7 @@
           nicht offensichtlich unbegründet oder exzessiv sind.
         </p>
 
-        <h2>8. Datensicherheit und Schutz</h2>
+        <h2>9. Datensicherheit und Schutz</h2>
         <p>
           Die Sicherheit der Daten unserer Nutzer hat für uns Priorität. Wir haben
           angemessene technische und organisatorische Maßnahmen implementiert, um
@@ -364,7 +447,7 @@
           Verweise auf personenbezogene Identifikatoren in Protokollen.
         </p>
 
-        <h2>9. Verantwortlicher und Kontakt</h2>
+        <h2>10. Verantwortlicher und Kontakt</h2>
         <p>
           Verantwortlich für die Datenverarbeitung der GymBroTools‑App ist Marco
           Crupi, unabhängiger Entwickler, erreichbar unter
@@ -372,7 +455,7 @@
           sämtliche Anfragen zum Thema Datenschutz.
         </p>
 
-        <h2>10. Änderungen und Aktualisierungen dieser Datenschutzerklärung</h2>
+        <h2>11. Änderungen und Aktualisierungen dieser Datenschutzerklärung</h2>
         <p>
           Diese Datenschutzerklärung kann im Laufe der Zeit angepasst und
           aktualisiert werden, etwa aufgrund gesetzlicher Änderungen,
